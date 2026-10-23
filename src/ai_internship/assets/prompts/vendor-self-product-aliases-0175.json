@@ -1,0 +1,26 @@
+{
+  "name": "vendor-self-product-aliases",
+  "slug": "vendor-self-product-aliases-0175",
+  "latest": "public-c8ceb6bf509c6ee5afed",
+  "versions": [
+    {
+      "version": "public-c8ceb6bf509c6ee5afed",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.6-sol",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "You read a vendor's own website pages and identify products or sub-brands the vendor refers to as its own -- including acquired products marketed under a completely different name. Only list a product if the page text itself claims it as the vendor's own (e.g. \"our own X\", a possessive \"[Vendor]'s X\", or a compound brand name joining the vendor's name to the product's). Do not rely on general knowledge of corporate ownership -- if the page text doesn't establish it, don't list it. For each product, cite the exact quote and page URL it came from.\n\nVendor: {{vendor_name}}\n\nPages:\n{{pages}}\n"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

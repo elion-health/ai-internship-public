@@ -1,0 +1,429 @@
+{
+  "name": "Marketplace Integrations Dataset",
+  "rows": [
+    {
+      "input": {
+        "name": "Suki",
+        "url": "https://suki.ai/",
+        "product_id": "2a56cae8-a912-50cb-a074-4484f3a0ac11"
+      },
+      "expected": {
+        "integrations": [
+          {
+            "name": "Azalea Health",
+            "reasoning": "Same press release (November 20, 2024). Suki's ambient listening embedded into Azalea Health's EHR. Includes named quote from Azalea Health CTO.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Embedding Suki's ambient listening capability into the Azalea Health EHR will improve Azalea's user experience, eliminating unnecessary manual clinician action and providing time for patient-doctor interaction.\"\n\n\"This collaboration significantly advances our AI strategy... Together, we aim to empower providers with tools that enhance efficiency and patient care.\" — Brian Kenah, CTO, Azalea Health",
+                "source_type": "vendor_website",
+                "url": "https://www.suki.ai/press-releases/suki-establishes-program-to-ai-enable-electronic-health-records/"
+              }
+            ]
+          },
+          {
+            "name": "MEDITECH Expanse",
+            "reasoning": "Confirmed on both Suki's domain and MEDITECH's own vendor directory page.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Suki will integrate its flagship product... into MEDITECH Expanse\"",
+                "source_type": "vendor_website",
+                "url": "https://www.suki.ai/news/suki-and-meditech-partner-to-use-the-power-of-generative-ai-to-tackle-administrative-burden/"
+              },
+              {
+                "snippet": "\"Integrated with Meditech, Suki ambiently generates documentation... Suki also comes with the option for in-Expanse dictation\"",
+                "source_type": "vendor_website",
+                "url": "https://ehr.meditech.com/vendors/suki"
+              }
+            ]
+          },
+          {
+            "name": "Medent",
+            "reasoning": "Press release on suki.ai (November 20, 2024). Suki's ambient AI embedded directly into MEDENT's EHR. Includes named quote from MEDENT VP of Sales and Marketing.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Suki's AI capabilities including ambient documentation, coding, answering questions, and more will be embedded directly into MEDENT's solution.\"\n\n\"Integrating ambient documentation directly into MEDENT's software is a game-changer for our users.\" — Barbara Cuthbert, VP of Sales and Marketing, MEDENT",
+                "source_type": "vendor_website",
+                "url": "https://www.suki.ai/press-releases/suki-establishes-program-to-ai-enable-electronic-health-records/"
+              }
+            ]
+          },
+          {
+            "name": "Oracle Health EHR (Cerner)",
+            "reasoning": "Dedicated integration page on Suki's domain confirms. Source uses former name \"Cerner\" — Oracle acquired and rebranded Cerner to Oracle Health in 2022. Note: speechtechmag.com is a third-party publication and not relied upon; primary source alone is sufficient.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Deep, bidirectional Cerner integration... Send finished notes to Cerner, where the relevant fields will be updated.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.suki.ai/cerner-integration/"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "integration_count": 4,
+        "product_name": "Suki"
+      }
+    },
+    {
+      "input": {
+        "name": "Infermedica",
+        "url": "https://infermedica.com",
+        "product_id": "33258cb8-dfd8-5ad7-b7ef-71b0a18520e6"
+      },
+      "expected": {
+        "integrations": [
+          {
+            "name": "Hyro",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "This is possible thanks to the integration of Infermedica’s Medical Guidance Platform with its early symptom assessment technology and Hyro’s industry-leading natural language understanding engine.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/partners/hyro"
+              }
+            ]
+          },
+          {
+            "name": "Kore.ai",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "HealthAssist… is integrated with Infermedica’s API to help create more meaningful conversations with patients that need to assess their symptoms prior to booking an appointment.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/partners/kore-ai"
+              }
+            ]
+          },
+          {
+            "name": "Oracle Health EHR (Cerner)",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Yes. Infermedica API can integrate with Cerner EHR and other healthcare systems. It is possible through our integration tool, which imports and exports data processed by Infermedica.",
+                "source_type": "vendor_website",
+                "url": "https://developer.infermedica.com/documentation/overview/faq/"
+              }
+            ]
+          },
+          {
+            "name": "Talkie.ai",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Voice AI… carry out health checks over the phone using Talkie’s intelligent voice bot platform supported by Infermedica’s API & NLP.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/partners/talkie-ai"
+              }
+            ]
+          },
+          {
+            "name": "eVisit",
+            "reasoning": "Press release from March 14, 2022 with named executive Juli Stover, CSO of eVisit; also currently listed on Infermedica's partners page.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Snippet: \"eVisit... announced a collaboration with Infermedica... that will embed Infermedica API into eVisit's Virtual Care Platform.\" — Juli Stover, Chief Strategy Officer, eVisit (March 14, 2022)",
+                "source_type": "vendor_website",
+                "url": "https://blog.evisit.com/en/newsroom/evisit-and-infermedica-collaborate-to-add-triaging-api-to-virtual-care-platform"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "integration_count": 5,
+        "product_name": "Infermedica"
+      }
+    },
+    {
+      "input": {
+        "name": "Fold Health",
+        "url": "https://www.fold.health/",
+        "product_id": "7be8cbac-76cf-5a4e-a350-6c3b68d060ac"
+      },
+      "expected": {
+        "integrations": [
+          {
+            "name": "Elation",
+            "reasoning": "Evidence on website confirm than Fold Health integrate with Elation to help primary care",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Mapping of users between Fold and Elation is possible… Users will be automatically migrated to Fold via the Elation API within minutes.",
+                "source_type": "vendor_website",
+                "url": "https://foldhealth.freshdesk.com/support/solutions/articles/156000139584-elation-capabilities-matrix"
+              },
+              {
+                "snippet": "In order to integrate with Elation, you will need to upload your Elation Source ID and your Elation Token.",
+                "source_type": "vendor_website",
+                "url": "https://foldhealth.freshdesk.com/support/solutions/articles/156000139534-integrations"
+              },
+              {
+                "snippet": "Both DockHealth and Fold Health offer sophisticated task management and care coordination platforms which integrate with Elation to help primary care distribute and track",
+                "source_type": "vendor_website",
+                "url": "https://www.elationhealth.com/resources/elation-health-ehr/hint-2023"
+              }
+            ]
+          },
+          {
+            "name": "Metriport",
+            "reasoning": "Evidence on website tha Metriport to integrate data from wearable devices to Fold",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "A direct integration between Fold Health and Metriport combines Fold’s Clin-Ops automation and EMR suite with Metriport’s API, which pulls longitudinal patient histories from health networks.",
+                "source_type": "vendor_website",
+                "url": "https://www.invene.com/blog/metriport"
+              },
+              {
+                "snippet": "Fold integrates with Google Fit and Apple HealthKit. We partner with Metriport to integrate data from wearable devices to Fold.",
+                "source_type": "vendor_website",
+                "url": "https://foldhealth.atlassian.net/wiki/spaces/FCS/pages/41615361/Wearables"
+              }
+            ]
+          },
+          {
+            "name": "Spruce Health",
+            "reasoning": "Evidence on website confirm that Spruce account to Fold you will need to upload data",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "In order to connect your Spruce account to Fold you will need to upload data from your Spruce account into your Fold account.",
+                "source_type": "vendor_website",
+                "url": "https://foldhealth.atlassian.net/wiki/spaces/FCS/pages/38371370/Integrations"
+              }
+            ]
+          },
+          {
+            "name": "athenaOne",
+            "reasoning": "Evidence on Fold Health’s documentation confirms a technical integration with athenahealth, including bidirectional patient data workflows, referral automation, and document syncing.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Fold is now introducing a new automation feature that creates tasks in Fold based on referrals (consult orders) from Athena.",
+                "source_type": "vendor_website",
+                "url": "https://foldhealth.atlassian.net/wiki/spaces/FCS/pages/70549505/Athena%2BCapabilities%2BMatrix"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "integration_count": 4,
+        "product_name": "Fold Health"
+      }
+    },
+    {
+      "input": {
+        "name": "Flatiron OncoEMR",
+        "url": "https://flatiron.com",
+        "product_id": "a122c6df-644e-5b33-babe-16d891e28184"
+      },
+      "expected": {
+        "integrations": [
+          {
+            "name": "DeepScribe",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "DeepScribe’s ambient AI medical scribe is fully compatible with Flatiron’s OncoEMR, turning oncology visits into comprehensive clinical notes directly inside your EMR.",
+                "source_type": "vendor_website",
+                "url": "https://www.deepscribe.ai/ehr-integrations/onco-emr"
+              },
+              {
+                "snippet": "DeepScribe’s ambient AI medical scribe is fully compatible with Flatiron’s OncoEMR, turning oncology visits into comprehensive clinical notes directly inside your EMR.",
+                "source_type": "vendor_website",
+                "url": "https://www.deepscribe.ai/ehr-integrations/onco-emr"
+              }
+            ]
+          },
+          {
+            "name": "Dendi LIS",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Streamline oncology workflows by integrating Dendi’s LIS with Flatiron’s OncoEMR for secure, real-time order and result exchange.",
+                "source_type": "vendor_website",
+                "url": "https://dendisoftware.com/integrations/flatiron"
+              }
+            ]
+          },
+          {
+            "name": "Phreesia",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "OncoEMR supports integrations with the following third-party apps: DeepScribe, Phreesia, RISA Labs, Smirta Innovations, Willowglade Technologies.",
+                "source_type": "vendor_website",
+                "url": "https://softwarefinder.com/emr-software/oncoemr"
+              }
+            ]
+          },
+          {
+            "name": "Willowglade Technologies",
+            "reasoning": "Evidence on website confirm this integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Willowglade Technologies and Flatiron Health partner to enhance patient engagement and practice operations",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/willowglade-technologies-and-flatiron-health-partner-to-enhance-patient-engagement-and-practice-operations"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "integration_count": 4,
+        "product_name": "Flatiron OncoEMR"
+      }
+    },
+    {
+      "input": {
+        "name": "FirstHx",
+        "url": "https://firsthx.com/",
+        "product_id": "e5926151-65fa-566c-a511-608454fd3e9e"
+      },
+      "expected": {
+        "integrations": [
+          {
+            "name": "Oracle Health EHR (Cerner)",
+            "reasoning": "Evidence on website confirm integration.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "The FirstHx AI-driven patient intake platform integrates directly with Oracle Health (formerly Cerner) to streamline clinical workflows",
+                "source_type": "vendor_website",
+                "url": "https://www.firsthx.com/solutions"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "integration_count": 1,
+        "product_name": "FirstHx"
+      }
+    },
+    {
+      "input": {
+        "name": "AgileMD Clinical Pathways",
+        "url": "https://www.agilemd.com/#Solution-Pathways",
+        "product_id": "fcd89a81-9ede-5dee-97e2-4d9f5ea25f0e"
+      },
+      "expected": {
+        "integrations": []
+      },
+      "metadata": {
+        "integration_count": 0,
+        "product_name": "AgileMD Clinical Pathways"
+      }
+    },
+    {
+      "input": {
+        "name": "Cadence",
+        "url": "https://cadence.care/",
+        "product_id": "002fbe67-c13a-5438-834e-8cf47c95e9c1"
+      },
+      "expected": {
+        "integrations": []
+      },
+      "metadata": {
+        "integration_count": 0,
+        "product_name": "Cadence"
+      }
+    },
+    {
+      "input": {
+        "name": "New Lantern",
+        "url": "https://newlantern.ai/",
+        "product_id": "7614d8cd-0d90-54f2-bbbd-f40980ab3655"
+      },
+      "expected": {
+        "integrations": []
+      },
+      "metadata": {
+        "integration_count": 0,
+        "product_name": "New Lantern"
+      }
+    },
+    {
+      "input": {
+        "name": "Arrive Health",
+        "url": "https://arrivehealth.com/solutions/providers/",
+        "product_id": "49223ad7-d4e9-5414-88d5-cbb626f2c516"
+      },
+      "expected": {
+        "integrations": [
+          {
+            "name": "Banjo Health",
+            "reasoning": "Official Banjo Health announcement confirms its platform is integrated with Arrive Health's electronic prior authorization solution, establishing a technical interoperability relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "successful integration of our platform with four leading electronic prior authorization (ePA) solutions: Surescripts, CoverMyMeds, Cencora, and Arrive Health.",
+                "source_type": "vendor_website",
+                "url": "https://www.banjohealth.com/post/banjo-health-expands-epa-reach-with-new-integrations"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "integration_count": 1,
+        "product_name": "Arrive Health"
+      }
+    },
+    {
+      "input": {
+        "name": "Abridge",
+        "url": "https://www.abridge.com/",
+        "product_id": "377bdcc2-98fc-53c4-b1ea-150825835113"
+      },
+      "expected": {
+        "integrations": [
+          {
+            "name": "UpToDate",
+            "reasoning": "Evidence on web of this integrations partner.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Ambient tools: Integrate UpToDate with ambient solutions like Microsoft Dragon and Abridge to surface clinical insights as clinicians discuss care with their patients.",
+                "source_type": "vendor_website",
+                "url": "https://www.uptodate.com/en/solutions/uptodate-enterprise-edition"
+              }
+            ]
+          },
+          {
+            "name": "athenaOne",
+            "reasoning": "Evidence on web of this integrations partner.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge joins athenahealth’s Ambient Notes, a Fully Integrated Documentation Solution Designed to Ease Clinician Burden",
+                "source_type": "vendor_website",
+                "url": "https://www.athenahealth.com/press-releases/athenahealth-and-abridge-partner"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "integration_count": 2,
+        "product_name": "Abridge"
+      }
+    }
+  ]
+}

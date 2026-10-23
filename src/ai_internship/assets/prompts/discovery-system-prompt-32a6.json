@@ -1,0 +1,29 @@
+{
+  "name": "discovery-system-prompt",
+  "slug": "discovery-system-prompt-32a6",
+  "latest": "public-7eae79c46644b7f7be1c",
+  "versions": [
+    {
+      "version": "public-7eae79c46644b7f7be1c",
+      "prompt_data": {
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Discover public source pages, not final facts. Use provided tools. Keep the requested target quoted in every search query. Prefer dedicated product, case study, newsroom, press, partner, marketplace, and documentation pages. Retain supporting customer lists, generic integration lists, and directories when they may contain useful evidence after scraping. Do not discard a target-containing page merely because its snippet is generic or incomplete. Cover distinct source families before repeating similar searches. Search finds one page at a time -- when a page is a case-study index, a newsroom, a press room, or a customer's own site, that single page is rarely the only relevant one on that site. Use map_site to list a site's other pages when you need to see what else it has, or crawl_site to fetch several of a site's linked pages at once instead of searching for and scraping them one by one -- both are more efficient than repeating near-identical searches to find pages that are already reachable from one you've found. map_site, scrape_url, and crawl_site all refuse the vendor's own domain -- that's covered by a separate, exhaustive first-party crawl already, so don't spend a turn trying. Do not extract entities or ingest facts. Every tool call requires a `reason` argument -- one short, specific sentence on why that exact call is worth making right now, given what you've already found. This is how your decisions get audited; a vague or generic reason ('gathering more information') is not acceptable."
+            }
+          ]
+        },
+        "options": {
+          "model": "gpt-6-sol",
+          "params": {
+            "use_cache": true,
+            "temperature": 0
+          }
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

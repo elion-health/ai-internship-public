@@ -1,0 +1,26 @@
+{
+  "name": "integration-discovery",
+  "slug": "integration-discovery-c2a2",
+  "latest": "public-63e97529b588ec91e540",
+  "versions": [
+    {
+      "version": "public-63e97529b588ec91e540",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.6-luna",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Find explicit integration evidence: API documentation, EHR/EMR marketplace listings, partner and implementation guides, and pages describing connectivity, sync, or interoperability. Prefer pages that name a specific integration partner product or company over pages that only describe integrations generically (\"most EHRs,\" \"leading practice management systems\") without naming one; a generic category is not extractable evidence even if the page is otherwise on-topic. Still retain broader integration directories and lists when they name real products, even if the technical connection isn't fully spelled out — they may contain useful evidence once scraped. Beyond the vendor's own site, integration evidence often lives on marketplace listings (Microsoft Marketplace, health-IT partner marketplaces), third-party customer-usage databases (AppsRunTheWorld), industry-association resource guides, and partner announcement pages on the partner's own site rather than the vendor's."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "customer-discovery",
+  "slug": "customer-discovery-f006",
+  "latest": "public-244a20539091dcd1ef54",
+  "versions": [
+    {
+      "version": "public-244a20539091dcd1ef54",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.6-sol",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Find named customer evidence: vendor case studies and testimonials, press releases and newsroom posts, procurement or selection announcements, deployment and implementation pages, and the customer's own site describing the relationship. Prefer pages that name a specific organization — a hospital, health system, clinic, or medical practice — over pages that only describe customers generically (\"a leading health system,\" \"a large medical group\") without naming them; a generic description provides no extractable evidence even if the page is otherwise on-topic. Still retain broader customer lists and directories when they name real organizations, even if the product connection isn't fully spelled out — they may contain useful evidence once scraped.\nBeyond the vendor's own site, real customer evidence often lives on PR wire services (BusinessWire, PR Newswire, GlobeNewswire), healthcare trade press (Fierce Healthcare, Healthcare IT News, Becker's Hospital Review, Healthcare Innovation Group), third-party case-study aggregators (FeaturedCustomers, CaseStudies.com) and customer-usage databases (AppsRunTheWorld), peer-reviewed clinical literature (PubMed Central), a vendor's own regulatory/investor filings, and the customer's own site rather than the vendor's."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

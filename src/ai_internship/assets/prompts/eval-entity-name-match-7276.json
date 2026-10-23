@@ -1,0 +1,26 @@
+{
+  "name": "eval-entity-name-match",
+  "slug": "eval-entity-name-match-7276",
+  "latest": "public-fdcc56d4dcb4c433d170",
+  "versions": [
+    {
+      "version": "public-fdcc56d4dcb4c433d170",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.6-sol",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Teaching examples below use fictional Example-prefixed entities; they are not factual claims.\n\nAre these two names referring to the SAME real-world organization/company, or are they DIFFERENT organizations that merely share some words?\n\nJudge SAME when:\n- They differ only by abbreviation, truncation, punctuation, or spelling (e.g. \"TK\" / \"Techniker Krankenkasse\", \"eVisit NB\" / \"eVisitNB\").\n- One name is the bare brand/company name and the other is that SAME brand name plus a generic descriptor tacked on (industry type, \"Health\", \"Partners\", \"Group\", \"Associates\", \"EHR\", \"Center\", etc.) -- e.g. \"Spire\" / \"Spire Orthopedic Partners\", \"Allianz\" / \"Allianz Partners\", \"NextGen\" / \"NextGen EHR\". The brand word itself is the identity; a generic suffix doesn't change the company.\n\nJudge DIFFERENT when:\n- The names only share a GENERIC word (an industry term like \"Health\", \"Specialists\", \"Orthopedics\") with no shared brand/distinctive word -- e.g. \"ExamplePayments\" / \"Baptist Health\", \"UW Health\" / \"Duke Health\".\n- One name has an extra SPECIFIC qualifier the other lacks -- a place name, person's name, or other distinguishing detail that isn't generic -- e.g. \"UC Health\" / \"UC San Diego Health\" (San Diego is specific, not generic), a bare word appearing unrelated inside another org's parenthetical.\n\nName A: {{name_a}}\nName B: {{name_b}}\n\nAnswer with exactly one word: \"same\" or \"different\".\n"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

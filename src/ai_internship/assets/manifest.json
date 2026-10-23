@@ -1,0 +1,176 @@
+{
+  "datasets": [
+    {
+      "name": "Marketplace Integrations Dataset",
+      "file": "datasets/integrations.json",
+      "rows": 10,
+      "relationships": 21,
+      "sha256": "b1ca9607bd5c19f81a8359a389e12e2516164e954e3a4dd530571d20dfabcc01"
+    },
+    {
+      "name": "Marketplace Customers Dataset",
+      "file": "datasets/customers.json",
+      "rows": 10,
+      "relationships": 139,
+      "sha256": "6b8d391ba7a85312661ce0e338aafe7eb6153f86c9f67e6c0e69aaee99471c4e"
+    }
+  ],
+  "prompts": [
+    {
+      "slug": "customer-discovery-f006",
+      "file": "prompts/customer-discovery-f006.json",
+      "versions": 1,
+      "latest": "public-244a20539091dcd1ef54",
+      "sha256": "ef43dd0dc8e9f0b690103222615db96c798ae110a2b4cae78fb346758d3436df"
+    },
+    {
+      "slug": "customer-evidence-judge-05d7",
+      "file": "prompts/customer-evidence-judge-05d7.json",
+      "versions": 1,
+      "latest": "public-5e0fe1175c396bede31e",
+      "sha256": "81681035bae01b22fd885caf4782edc3f36c26ee1de302b1ff4163f64921c082"
+    },
+    {
+      "slug": "customer-extraction-8f90",
+      "file": "prompts/customer-extraction-8f90.json",
+      "versions": 1,
+      "latest": "public-000fc23a5353ccb1a5cb",
+      "sha256": "a9e9bc839028d6cd7a6be2656d34f9480dfbf936d12678fdacc93b3c41c47f42"
+    },
+    {
+      "slug": "customers-synthesizer-extraction",
+      "file": "prompts/customers-synthesizer-extraction.json",
+      "versions": 1,
+      "latest": "public-21f377c4379a0a4a4fe3",
+      "sha256": "426d0bac2b8b0351727cf5bbd9a7d7f0ee7eb24da2ccab4feaf9396864a80a49"
+    },
+    {
+      "slug": "customers-synthesizer-v5",
+      "file": "prompts/customers-synthesizer-v5.json",
+      "versions": 1,
+      "latest": "public-15457f00e5aa4c6a9d34",
+      "sha256": "c4487e7e05659d9b96f372e6f1993f904717672a7dfabaabea4266512f0a4aef"
+    },
+    {
+      "slug": "customers-synthesizer-v6",
+      "file": "prompts/customers-synthesizer-v6.json",
+      "versions": 1,
+      "latest": "public-21ded8c2118fc9daf529",
+      "sha256": "9a36f2fea94f9036a0085ddd79a8846f038f2ea368704d1284e52e251dc9694e"
+    },
+    {
+      "slug": "customers-v3",
+      "file": "prompts/customers-v3.json",
+      "versions": 1,
+      "latest": "public-53826a61c3661f3a8c1b",
+      "sha256": "adfb8fae9e8fce1bb1064a0e2ff7d2a31e9a833af9ef8ffddd5cc3f83fe3b804"
+    },
+    {
+      "slug": "discovery-system-prompt-32a6",
+      "file": "prompts/discovery-system-prompt-32a6.json",
+      "versions": 1,
+      "latest": "public-7eae79c46644b7f7be1c",
+      "sha256": "ef985fa5b475e0079437372add321dfe7c31fe589ccc6fd90fe6f4584c32dca9"
+    },
+    {
+      "slug": "eval-entity-name-match-7276",
+      "file": "prompts/eval-entity-name-match-7276.json",
+      "versions": 1,
+      "latest": "public-fdcc56d4dcb4c433d170",
+      "sha256": "5839bccd52c08feae687da9f5fa1d6ddcdd419f9ad3fdd53c36e598dc92e7ccf"
+    },
+    {
+      "slug": "integration-discovery-c2a2",
+      "file": "prompts/integration-discovery-c2a2.json",
+      "versions": 1,
+      "latest": "public-63e97529b588ec91e540",
+      "sha256": "007162d0375b1647fc8cb4018c3c29ff3d31006826dfd61f580186717c7600c2"
+    },
+    {
+      "slug": "integration-evidence-judge-e9c5",
+      "file": "prompts/integration-evidence-judge-e9c5.json",
+      "versions": 1,
+      "latest": "public-b1b270bd96c5be0a7814",
+      "sha256": "1cc098648dedbf2d18da5326f64fa72fad2ec6edf954341d8abce84f23d6df67"
+    },
+    {
+      "slug": "integration-extraction-4de1",
+      "file": "prompts/integration-extraction-4de1.json",
+      "versions": 1,
+      "latest": "public-0d5eb48074eb0af30a99",
+      "sha256": "5b8400655c3345994c9ad1ca2ff1c58066472224e50c30abd441080a3c2b6473"
+    },
+    {
+      "slug": "referent-solution-0cd9",
+      "file": "prompts/referent-solution-0cd9.json",
+      "versions": 1,
+      "latest": "public-22f7372406292c8074b5",
+      "sha256": "ec5cc23e7b05c2c2c334d7cf84060d675d2a1c159f30d536f12ecef61652bf79"
+    },
+    {
+      "slug": "referent-solution-customers-7f21",
+      "file": "prompts/referent-solution-customers-7f21.json",
+      "versions": 1,
+      "latest": "public-2336be7eb62bc054177b",
+      "sha256": "a3d4d3c40e4a8f54fc4479412b9a51f27a82f16e4a9a3789682e7652768c2b9e"
+    },
+    {
+      "slug": "semantic-grounding-check-c43d",
+      "file": "prompts/semantic-grounding-check-c43d.json",
+      "versions": 1,
+      "latest": "public-ddb619cde370d27616cd",
+      "sha256": "40f27c036a0cb6ba8ce5e642653d68ab87d1bfdb5404e7ea052071cc9ade793c"
+    },
+    {
+      "slug": "vendor-self-product-aliases-0175",
+      "file": "prompts/vendor-self-product-aliases-0175.json",
+      "versions": 1,
+      "latest": "public-c8ceb6bf509c6ee5afed",
+      "sha256": "b6fa55603c7f7f7f9ebc424210b6be77c1e6b4a29d4b321997639c649bc0abf1"
+    },
+    {
+      "slug": "referent-solution-integrations-firstparty-71e0",
+      "file": "prompts/referent-solution-integrations-firstparty-71e0.json",
+      "versions": 1,
+      "latest": "public-cec0959ab837237bac26",
+      "sha256": "f59f74aad04914c98638bcc0df6c93e5e466aa5b606e243d3c9509503b933b27"
+    },
+    {
+      "slug": "referent-solution-customers-firstparty-1eb4",
+      "file": "prompts/referent-solution-customers-firstparty-1eb4.json",
+      "versions": 1,
+      "latest": "public-2fd3194c8f1e9b17ad69",
+      "sha256": "bd9b7323928c288395aacbc7fdea64b64ea50a439a92c14e137111febdc652c0"
+    },
+    {
+      "slug": "semantic-grounding-check-customers-fe3b",
+      "file": "prompts/semantic-grounding-check-customers-fe3b.json",
+      "versions": 1,
+      "latest": "public-83a5282c47a4357243ee",
+      "sha256": "4eb8dcf2337a179fa82b25441173f268e0f3f2fb18867e658a2f4d2e79c58da1"
+    },
+    {
+      "slug": "semantic-grounding-check-integrations-a12e",
+      "file": "prompts/semantic-grounding-check-integrations-a12e.json",
+      "versions": 1,
+      "latest": "public-bc11b8fae09ef362d5d4",
+      "sha256": "43de644f02340e0604120b4c27087d698851d9f50f494d0709f97ca58fce0d3b"
+    }
+  ],
+  "removed_fields": "Production identifiers and environment names, hosted provenance, audit data, comments, reviewer identity, assignments and calibration metadata. Product IDs are deterministic public fixture UUIDs.",
+  "scope": "Ten illustrative product samples with selected customer and integration labels; broader datasets are private. These are not complete production records.",
+  "products": [
+    "FirstHx",
+    "Flatiron OncoEMR",
+    "Fold Health",
+    "Infermedica",
+    "Suki",
+    "AgileMD Clinical Pathways",
+    "Cadence",
+    "New Lantern",
+    "Arrive Health",
+    "Abridge"
+  ],
+  "prompt_policy": "Twenty prompts, one public adaptation of the latest source version each. Content-derived public-* IDs; no historical versions or source-version mapping. Private naming tables, frequency tiers and organization-specific policy wording omitted. Public prompts are not exact historical replicas.",
+  "updated_at": "2026-10-22"
+}

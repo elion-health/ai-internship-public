@@ -1,0 +1,5 @@
+{
+  "dependencies": ["."],
+  "graphs": {"stateful_research": "./src/ai_internship/studio.py:stateful_research_graph"},
+  "env": ".env"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "referent-solution-customers-firstparty",
+  "slug": "referent-solution-customers-firstparty-1eb4",
+  "latest": "public-2fd3194c8f1e9b17ad69",
+  "versions": [
+    {
+      "version": "public-2fd3194c8f1e9b17ad69",
+      "prompt_data": {
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Teaching examples below use fictional Example-prefixed entities. They are not additional dataset records.\n\nLook at this organisation: {{subject}}\nLook at this product: {{object}}\n\nAdoption means the organisation actually uses the product, or is being provided it -- deployed, implemented, rolled out, live on it, selected and now running it, or co-developed it with the vendor and uses the result. It is not an investment, an award, sponsorship, membership of a network or programme, or a research study with no use implied.\n\nBe careful whose page this is. The page is {{source_url}}. Many pages belong to a third company listing the organisations it works with, or the products it resells. An organisation and a product both appearing on such a page does not mean that organisation uses that product. First-person words like \"we\" and \"our\" belong to the page's owner. Only answer yes if the page says this organisation uses this product.\n\nIt must be this exact organisation. Health systems share names and have many parts -- a named hospital inside a larger system, a regional division, a foundation or a research arm. A sentence about a different organisation of a similar name does not establish adoption for this one. A named site within the organisation does count: if the page says a hospital belonging to it is live on the product, the organisation uses the product.\n\nIt must be this exact product. A vendor usually sells several. A sentence about a different product from the same vendor, or about the vendor generally, is not this product being adopted -- unless the page itself treats the vendor's name as shorthand for this product, which is common on the vendor's own site.\n\nAn individual is not an organisation. A named clinician praising the product establishes adoption only when the page also ties that person to a named hospital, practice or health system.\n\nConsider what kind of page this is. A careers page, an investor page or a boilerplate press paragraph describes a company, not who uses its products. A sponsor list or an award list is not a customer list.\n\nOn the vendor's own site the page's structure can establish adoption as plainly as a sentence does. A case study, a customer spotlight, a \"see how X did Y\" teaser, or a heading naming an organisation above an account of what it achieved -- each of these is the vendor presenting that organisation as a customer, and the body does not have to repeat the product's name for it to count. The organisation describing a workflow it built or an outcome it reached, on a page that is about this product, is that organisation using this product. A name listed under the vendor's own claim about its customers — \"trusted by\", \"our customers\", \"used by\" — counts even if nothing else is said about it, because the vendor is asserting that organisation as a customer. What does not count is a bare logo or a name in a grid with no such claim attached to it.\n\nThe test: would someone at this organisation read this page and recognise it as describing their own use of the product? Not that the two have had dealings, not that they are both in healthcare -- that this organisation runs this product.\n\nTwo worked examples.\n\nNO. Page: a consultancy's own site, listing the health systems it has advised and the platforms it builds on. Organisation: Example Community Health. Product: a scheduling platform. Both appear on the page because the consultancy has worked with one and built on the other. Nothing says Example Community Health uses that platform.\n\nYES. Page: a vendor's case study. Organisation: Example Regional Hospital. Product: the vendor's patient-intake product. The page says \"Example Regional Hospital rolled out intake across twelve clinics last spring\". The organisation is named, the product is the page's subject, and the use is stated.\n\nA press release naming organisations that have gone live, been implemented, or\nare now running the product is good evidence. The page being promotional does not\nweaken it -- what matters is that it names the organisation and says it is using\nthe product, not merely that it intends to.\n\nA third-party directory, marketplace listing or comparison page counts when it\nnames a specific organisation as a user of the product. Someone else reporting who\nruns it is evidence; only a page that names no organisation is not.\n\nAn investor's page or a venture firm's announcement is about the vendor. A\nhospital named there as a partner, design partner or collaborator is not\nestablished as a user.\n\nBased on the following page, does {{subject}} use {{object}}? Answer yes or no, and why.\n\nGive your answer in three fields, in this order: `reason`, your argument in a sentence or two; `integrated`, yes or no; `proof_sentence`, the sentence from the page that shows it, copied word for word, or empty if there is none.\n\nPAGE:\n{{page_content}}"
+            }
+          ]
+        },
+        "options": {
+          "model": "gpt-6.1-sol",
+          "params": {
+            "use_cache": true,
+            "temperature": 0
+          }
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

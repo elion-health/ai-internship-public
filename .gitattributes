@@ -1,0 +1,7 @@
+# Jupyter notebooks are paired with a Markdown sibling via jupytext (see
+# pyproject.toml's [tool.jupytext]) -- the .md carries the actual code a
+# reviewer needs, the .ipynb just adds embedded HTML dashboard output.
+# linguist-generated collapses it in GitHub's diff view and is respected by
+# most review bots (Macroscope has its own explicit rule too, see
+# .macroscope/ignore.md, for tools that don't honor this attribute).
+notebooks/*.ipynb linguist-generated=true

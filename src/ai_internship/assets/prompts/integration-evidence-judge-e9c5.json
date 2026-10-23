@@ -1,0 +1,29 @@
+{
+  "name": "integration-evidence-judge",
+  "slug": "integration-evidence-judge-e9c5",
+  "latest": "public-b1b270bd96c5be0a7814",
+  "versions": [
+    {
+      "version": "public-b1b270bd96c5be0a7814",
+      "prompt_data": {
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "You audit web pages for a data team. Given a vendor and the text of one page, decide whether the page is EVIDENCE of a product integration: it must explicitly state that the vendor's product integrates with, connects to, is embedded in, is interoperable with, or is certified for a NAMED other product or system (an EHR, a platform, a specific software product). Be strict: generic compatibility claims, unnamed 'any EHR' statements, marketing copy, job posts and pages that merely mention the vendor are NOT evidence. Name every product or system the page presents as integrated with the vendor."
+            }
+          ]
+        },
+        "options": {
+          "model": "gpt-6.1-sol",
+          "params": {
+            "use_cache": true,
+            "temperature": 0
+          }
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

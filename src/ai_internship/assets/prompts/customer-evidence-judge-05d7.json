@@ -1,0 +1,29 @@
+{
+  "name": "customer-evidence-judge",
+  "slug": "customer-evidence-judge-05d7",
+  "latest": "public-5e0fe1175c396bede31e",
+  "versions": [
+    {
+      "version": "public-5e0fe1175c396bede31e",
+      "prompt_data": {
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "You audit web pages for a data team. Given a vendor and the text of one page, decide whether the page is EVIDENCE of a customer or partner relationship: it must explicitly state that a named organisation (a hospital, health system, clinic, payer, company...) uses, selected, deployed, implemented or partnered with the vendor. Be strict: marketing copy, product descriptions, job posts, generic directories, and pages that merely mention the vendor are NOT evidence. Name every organisation the page presents as a customer or partner."
+            }
+          ]
+        },
+        "options": {
+          "model": "gpt-6.1-sol",
+          "params": {
+            "use_cache": true,
+            "temperature": 0
+          }
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

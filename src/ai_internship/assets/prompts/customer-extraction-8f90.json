@@ -1,0 +1,30 @@
+{
+  "name": "customer-extraction",
+  "slug": "customer-extraction-8f90",
+  "latest": "public-000fc23a5353ccb1a5cb",
+  "versions": [
+    {
+      "version": "public-000fc23a5353ccb1a5cb",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.5",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Extract only HealthSystem -> Adopts -> Product relationships where the evidence indicates the named organization is actually using or being provided the Product — regardless of which specific word or phrase describes it (e.g. \"partnership,\" \"collaboration,\" \"selected,\" \"deployed,\" \"implemented,\" \"launched,\" \"integrated,\" \"adopted,\" or similar). Do not extract a relationship that is clearly and only an investment, an award, membership in a network or program, a joint research study, or a co-marketing/sponsorship mention with no use implied at all — except that if the organization co-developed the product together with the vendor, extract that as an Adopts relationship even though it is described as a partnership or collaboration rather than a purchase. If it's unclear whether the evidence rises to real use — extract it as a candidate anyway rather than abstaining. A separate downstream check judges sufficiency of evidence; your job is to not miss a real relationship because the wording was ambiguous, not to make the final call yourself.\n\nThe Product in every relationship you extract is {{target_product_name}} — this source is about a single known product, and you are never identifying which product is involved, only whether a HealthSystem is using it. Do not name any other product as the object of a relationship, even if the source mentions other products, platforms, or vendors alongside {{target_product_name}}. The source may refer to {{target_product_name}} by its full name, a partial/shortened form, an acronym, or a branded variant rather than the exact string above — known forms for this product include: {{target_product_aliases}}. Treat any such reference, or an unambiguous pronoun/generic noun (\"this system,\" \"the platform,\" \"it\") whose clear subject on this page is {{target_product_name}}, as referring to it. Do not treat a mention of a different, distinctly-named product as {{target_product_name}} just because it appears nearby.\n\nEvery relationship must include one contiguous evidence span copied from the source's visible text. The span must contain the named HealthSystem and language connecting it to {{target_product_name}} — the language does not need to conclusively prove use on its own if it's the best evidence available; when in doubt, include the candidate and let the evidence span speak for itself downstream. The span does not need to repeat {{target_product_name}}'s exact name if it uses a pronoun/generic reference or a recognized alias as described above.\n\nA customer relationship may be stated directly, expressed through a testimonial or quote from a named person at a named organization about {{target_product_name}} (\"'I like this system' — Name, Organization\"), or established by the page itself when its title, heading, or opening statement declares its subjects to be using/adopting {{target_product_name}} (e.g. \"…for {{target_product_name}} customers\" or \"{{target_product_name}} announced its collaboration with [organizations] to help them address...\") and then lists named organizations. In that last case, extract each listed organization as adopting {{target_product_name}}. This does not extend to pages that are clearly and only listing sponsors or award winners with no connection to using the product at all — but a partner/member list where the described relationship plausibly involves product use should still be extracted as a candidate rather than skipped.\n\nEvery HealthSystem endpoint must be a proper-named organization — a hospital, health system, clinic, or medical practice — not an individual person, a place (city, country, region), a generic cohort, a capability, a navigation label, or an inferred entity. Do not treat an individual's name as the HealthSystem — including names with titles or credentials (Dr., Mr., Mrs., Ms., Prof., MD, DVM, PhD, MSc). If the only named entity is a person and no separate organization, clinic, or practice is named, abstain instead of using the person's name as the HealthSystem. Abstain only when the HealthSystem endpoint is unnamed, or when the evidence actually describes a different, distinctly-named product rather than {{target_product_name}}. Reuse the exact spelling and label of a seeded candidate when the source refers to that entity; do not emit candidates merely because they are listed.\n\nIf the source names multiple distinct organizations that each adopt {{target_product_name}}, extract a separate relationship entry for every one of them. Do not stop after the first candidate found, and do not summarize multiple customers into a single entry.\n\nSeeded candidates:\n{{seeded_candidates}}\n"
+            },
+            {
+              "role": "system",
+              "content": "{{source_content}}"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

@@ -1,0 +1,30 @@
+{
+  "name": "integration-extraction",
+  "slug": "integration-extraction-4de1",
+  "latest": "public-0d5eb48074eb0af30a99",
+  "versions": [
+    {
+      "version": "public-0d5eb48074eb0af30a99",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.5",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Extract only explicit Product -> Integrates -> Product relationships supported by named systems being integrated, connected, embedded, interoperable, or combined. Generic system types and compatibility claims are not product endpoints.\n\nOne of the two endpoints in every relationship you extract is {{target_product_name}} — this source is about a single known product, and you are never identifying which product on this page it refers to, only which OTHER named product it integrates with. The source may refer to {{target_product_name}} by its full name, a partial/shortened form, an acronym, or a branded variant rather than the exact string above — known forms for this product include: {{target_product_aliases}}. Treat any such reference, or an unambiguous pronoun/generic noun (\"this system,\" \"the platform,\" \"it\") whose clear subject on this page is {{target_product_name}}, as referring to it. Do not treat a mention of a different, distinctly-named product as {{target_product_name}} just because it appears nearby.\n\nAlways place {{target_product_name}} in the `product` field and the other named system in the `integrated_product` field, regardless of which one the source text mentions first or which one is the sentence's grammatical subject. Never emit {{target_product_name}} as the `integrated_product`.\n\nEvery relationship must include one evidence span copied from the source's visible text. The span must be verbatim: an unbroken run of characters that a reader could find on the page with a single text search. Never join separate parts of the page together, and never use an ellipsis to bridge a gap.\n\nWhere a single unbroken span contains both named endpoints and the explicit relationship cue, use it. Where no span on the page does, still report the relationship, and give the single best span you do have -- the one that made you suspect the link, even though it names only one of the two. A later step reads the whole page and either finds the missing proof or discards the relationship, so reporting one here is a referral, not a claim that it is true. What you must never do is manufacture a span that covers both.\n\nOne span may back more than one relationship, but only when that exact span states the relationship for each partner you attach to it. Do not reuse a span unless you are sure it is backing that specific relation. A common failure is memory fatigue: having found one usable span early, the model keeps attaching later partners to it even though the span never states their relationship. Do not reuse a span for that reason. Before reusing one, re-read it and confirm it names that partner and the relationship cue together; if it does not, omit that relationship. If several candidate partners are only named in a shared list or heading that does not state the relationship for each one, emit nothing for them.\n\nThe other endpoint (`integrated_product`) must be a proper-named organization or branded product, not a generic cohort, capability, navigation label, or inferred entity. Every relationship must be explicit. Abstain when either endpoint is unnamed. Reuse the exact spelling and label of a seeded candidate when the source refers to that entity; do not emit candidates merely because they are listed.\n\nSeeded candidates:\n{{seeded_candidates}}\n\nInteractive content and Supporting logo evidence sections are first-party rendered source evidence. A control state, testimonial attribution, or logo-wall context may establish integration only when that same subsection supports actual technical interoperability. Abstain for a logo, partner list, or co-mention when its captured context does not establish an integration."
+            },
+            {
+              "role": "system",
+              "content": "{{source_content}}"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

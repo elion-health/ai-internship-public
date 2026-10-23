@@ -1,0 +1,1896 @@
+{
+  "name": "Marketplace Customers Dataset",
+  "rows": [
+    {
+      "input": {
+        "name": "Suki",
+        "url": "https://suki.ai/",
+        "product_id": "2a56cae8-a912-50cb-a074-4484f3a0ac11"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Access Health Louisiana",
+            "reasoning": "Named explicitly in the same FQHC press release.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"including Utah Navajo Health System (UNHS), CenterPlace Health, Access Health Louisiana, and PrimeCare Health.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.businesswire.com/news/home/20240718677400/en/Sukis-Voice-AI-Assistant-Transforms-Healthcare-in-Underserved-Populations"
+              }
+            ]
+          },
+          {
+            "name": "Allied Digestive Health",
+            "source": "marketplace"
+          },
+          {
+            "name": "Amwell",
+            "source": "marketplace"
+          },
+          {
+            "name": "Ascension Saint Thomas",
+            "reasoning": "Co-issued press release on BusinessWire (primary source).",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Ascension Saint Thomas invests in AI-powered Suki Assistant to reduce time spent on administrative work.\"\n\"Ascension Saint Thomas will also be making Suki available to its 700+ clinicians.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.businesswire.com/news/home/20240808480150/en/Ascension-Saint-Thomas-Integrates-Sukis-Ambient-AI-Assistant-Into-Its-Residency-Program-as-a-Part-of-System-Wide-Rollout"
+              }
+            ]
+          },
+          {
+            "name": "CVFP Medical Group",
+            "reasoning": "Same co-issued press release as PartnerMD.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"systemwide implementation of its AI voice assistant, Suki Assistant, in two prominent healthcare organizations: PartnerMD and CVFP Medical Group (CVFP).\"",
+                "source_type": "vendor_website",
+                "url": "https://www.businesswire.com/news/home/20230531005349/en/PartnerMD-and-CVFP-to-Deploy-Sukis-AI-Powered-Voice-Assistant-Systemwide"
+              }
+            ]
+          },
+          {
+            "name": "CenterPlace Health FQHC",
+            "reasoning": "Named explicitly in the same FQHC press release. Source names \"CenterPlace Health\" (submitted entry appends \"FQHC\" which is contextually confirmed by the press release's subject).",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"including Utah Navajo Health System (UNHS), CenterPlace Health, Access Health Louisiana, and PrimeCare Health.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.businesswire.com/news/home/20240718677400/en/Sukis-Voice-AI-Assistant-Transforms-Healthcare-in-Underserved-Populations"
+              }
+            ]
+          },
+          {
+            "name": "Decatur County Memorial Hospital",
+            "reasoning": "Named explicitly in Suki's own press release.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"announced it is deploying its technology in more than a dozen health systems on MEDITECH Expanse, including St. Mary's Healthcare and Decatur County Memorial Hospital.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.suki.ai/news/sukis-ai-assistant-deploys-at-more-than-12-new-health-systems-leveraging-meditech-integration-improving-clinician-well-being-nationwide/"
+              }
+            ]
+          },
+          {
+            "name": "Hoag",
+            "source": "marketplace"
+          },
+          {
+            "name": "MedStar Health",
+            "source": "marketplace"
+          },
+          {
+            "name": "PartnerMD",
+            "reasoning": "Co-issued press release on BusinessWire (primary source). Includes direct quote from PartnerMD COO.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"systemwide implementation of its AI voice assistant, Suki Assistant, in two prominent healthcare organizations: PartnerMD and CVFP Medical Group.\"\n\"PartnerMD has been using Suki for some time... The positive experience has led us to make the decision to implement the technology across our entire practice.\" — Jack Bretcher, COO of PartnerMD",
+                "source_type": "vendor_website",
+                "url": "https://www.businesswire.com/news/home/20230531005349/en/PartnerMD-and-CVFP-to-Deploy-Sukis-AI-Powered-Voice-Assistant-Systemwide"
+              }
+            ]
+          },
+          {
+            "name": "Premier",
+            "source": "marketplace"
+          },
+          {
+            "name": "Rush University Medical Center",
+            "reasoning": "Source is a press release on Suki's own domain. Note: source names \"Rush University System for Health\" (the parent system), not specifically \"Rush University Medical Center.\"",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"expanded its partnership with Rush University System for Health... to roll out Suki's capabilities enterprise-wide after a successful deployment of its AI Assistant last summer, enabling Rush clinicians across 28 specialties to reduce administrative time.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.suki.ai/news/rush-expands-suki-partnership-with-enterprise-wide-ambient-ai-rollout-following-successful-launch/"
+              }
+            ]
+          },
+          {
+            "name": "St. Mary's Healthcare",
+            "source": "marketplace"
+          },
+          {
+            "name": "Unified Women's Healthcare",
+            "reasoning": "Dedicated page on Suki's own domain confirms active integration and use.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Suki is integrated with Unified Women's Healthcare's instance of Athena, so you can speak naturally and get your notes done.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.suki.ai/unified-womens-healthcare/"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 14,
+        "product_name": "Suki"
+      }
+    },
+    {
+      "input": {
+        "name": "Infermedica",
+        "url": "https://infermedica.com",
+        "product_id": "33258cb8-dfd8-5ad7-b7ef-71b0a18520e6"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Allianz",
+            "reasoning": "Allianz Partners' own press release (July 23, 2024) explicitly names Infermedica's symptom checker as \"a fully licenced Infermedica medical device\" embedded in their Lumi ecosystem — an active, recent, first-party confirmation.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"The Symptom Checker is a fully licenced Infermedica medical device\" — Andrej Mekionis, Head of Product Marketing and Innovation, Allianz Partners (July 23, 2024)",
+                "source_type": "vendor_website",
+                "url": "https://www.allianz-partners.com/en_US/press/press-release/2024/2024-07-23-Allianz-Partners-enhances-Lumi-with-AI-powered-symptom-checker.html"
+              }
+            ]
+          },
+          {
+            "name": "Batist Medical",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Our COVID-19 Risk Assessment tool has been implemented by the Polish Ministry of Health and the Ministry of Health of Ukraine, as well as leading healthcare oriented companies: Global Excel, Dovera, Dr. Sintomas, Batist Medical, GdziePoLek, PZU Zdrowie…",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/case-studies/covid19"
+              }
+            ]
+          },
+          {
+            "name": "Diagnostikare",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Durch die Erweiterung ihrer Plattform mit den Technologien von Infermedica… steigerte Diagnostikare die betriebliche Effizienz… Produkt: Infermedica API.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/diagnostikare"
+              },
+              {
+                "snippet": "Durch die Erweiterung ihrer Plattform mit den Technologien von Infermedica… steigerte Diagnostikare die betriebliche Effizienz… Produkt: Infermedica API.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/diagnostikare"
+              }
+            ]
+          },
+          {
+            "name": "Digi-Dibia",
+            "source": "marketplace"
+          },
+          {
+            "name": "Dr. Sintomas",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Our COVID-19 Risk Assessment tool has been implemented by… leading healthcare oriented companies: Global Excel, Dovera, Dr. Sintomas, Batist Medical, GdziePoLek, PZU Zdrowie…",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/case-studies/covid19"
+              }
+            ]
+          },
+          {
+            "name": "Dôvera",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Our COVID-19 Risk Assessment tool has been implemented by… leading healthcare oriented companies: Global Excel, Dovera, Dr. Sintomas, Batist Medical, GdziePoLek, PZU Zdrowie…",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/case-studies/covid19"
+              }
+            ]
+          },
+          {
+            "name": "GdziePoLek",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Our COVID-19 Risk Assessment tool has been implemented by… Global Excel, Dovera, Dr. Sintomas, Batist Medical, GdziePoLek, PZU Zdrowie, and the list is growing.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/case-studies/covid19"
+              }
+            ]
+          },
+          {
+            "name": "Global Excel Management",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Current Infermedica clients include health insurance companies, such as Allianz, Global Excel and Medis, where digital triage claims to help optimise healthcare costs.",
+                "source_type": "vendor_website",
+                "url": "https://techcrunch.com/2020/08/06/infermedica/"
+              }
+            ]
+          },
+          {
+            "name": "Gothaer",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Gothaer Gesundheitsapp… has expanded with a symptom checking tool. Its implementation was supported by Infermedica’s technologies… Gothaer expands its health mobile app with Infermedica's Symptom Checker.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/blog/articles/gothaer-and-infermedica-expand-gesundheitsapp-with-symptom-checker"
+              }
+            ]
+          },
+          {
+            "name": "Institute of Mother and Child",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Das Institut für Mutter und Kind… suchte nach einer digitalen Lösung… Das Institut entschied sich für die Einführung eines digitalen Symptom-Checkers… Im Juli 2023 integrierte Infermedica seinen Symptom-Checker nahtlos in die Homepage des IMC.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/institute-of-mother-and-child"
+              }
+            ]
+          },
+          {
+            "name": "International Medical Center",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "International Medical Center… uses digital technologies, like Infermedica API, to reach out to new customers… Implemented in 2020, symptom checker became an easy-to-use connector between patients and medical services of IMC.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/blog/articles/international-medical-center-a-hospitals-symptom-checker-as-a-gateway-for-new-patients"
+              }
+            ]
+          },
+          {
+            "name": "Medis",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Médis… setzt die Call Center Triage von Infermedica im klinischen Servicecenter ein… Durch die Implementierung wurde das Triagierungsverfahren verfeinert; unnötige Besuche der Notaufnahme… werden dadurch vermieden.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/medis"
+              },
+              {
+                "snippet": "Médis… setzt die Call Center Triage von Infermedica im klinischen Servicecenter ein… Durch die Implementierung wurde das Triagierungsverfahren verfeinert; unnötige Besuche der Notaufnahme… werden dadurch vermieden.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/medis"
+              }
+            ]
+          },
+          {
+            "name": "Ministry of Health of Ukraine",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Our COVID-19 Risk Assessment tool has been implemented by the Polish Ministry of Health and the Ministry of Health of Ukraine, as well as leading healthcare oriented companies…",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/case-studies/covid19"
+              }
+            ]
+          },
+          {
+            "name": "NextCare Urgent Care",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Nextcare… hat den Symptomchecker von Infermedica in sein Angebot von digitalen Gesundheitslösungen aufgenommen und er wurde zu einer hochgeschätzten Funktion der mobilen App Lumi.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/nextcare"
+              },
+              {
+                "snippet": "Nextcare… hat den Symptomchecker von Infermedica in sein Angebot von digitalen Gesundheitslösungen aufgenommen und er wurde zu einer hochgeschätzten Funktion der mobilen App Lumi.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/nextcare"
+              }
+            ]
+          },
+          {
+            "name": "Polish Ministry of Health",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "To date… COVID-19 Risk Assessment tool has been implemented by the Polish Ministry of Health and the Ministry of Health of Ukraine, as well as leading healthcare oriented companies…",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/case-studies/covid19"
+              }
+            ]
+          },
+          {
+            "name": "Ramsay Santé",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Ramsay Santé… implemented a symptom checker as part of their Patient Portal in France… Their new tool uses Symptom Checker 3, delivered by Infermedica.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/blog/articles/ramsay-sante-a-hospital-offering-patients-a-personalized-connection-to-medical-services"
+              }
+            ]
+          },
+          {
+            "name": "Sana Kliniken",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Infermedica formed a partnership with Sana Kliniken… We will collaborate with Sana Kliniken developing a symptom checking system, built on Infermedica’s Symptom Checker… The Symptom Checker integrated into Sana’s website will provide the patient with validated medical information.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/blog/articles/sana-kliniken-ag-implements-symptom-checker-from-infermedica"
+              }
+            ]
+          },
+          {
+            "name": "Solv",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Solv… suchte nach Tools… Letztendlich buchten durch den Symptom-Checker von Infermedica, 25 % dessen Nutzer ihren Arzttermin über das Portal… Produkt: Infermedica API.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/solv"
+              },
+              {
+                "snippet": "Solv… suchte nach Tools… Letztendlich buchten durch den Symptom-Checker von Infermedica, 25 % dessen Nutzer ihren Arzttermin über das Portal… Produkt: Infermedica API.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/solv"
+              }
+            ]
+          },
+          {
+            "name": "TK",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Die Techniker Krankenkasse… arbeitet mit Infermedica als Partner zusammen, um ihren Versicherten mit Hilfe des Symptom-Checkers eine digitale… Ersteinschätzung ihrer Gesundheit zu bieten… Seit November 2022 können die Versicherten den Symptom-Checker kostenlos nutzen.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/techniker-krankenkasse"
+              },
+              {
+                "snippet": "Die Techniker Krankenkasse… arbeitet mit Infermedica als Partner zusammen, um ihren Versicherten mit Hilfe des Symptom-Checkers eine digitale… Ersteinschätzung ihrer Gesundheit zu bieten… Seit November 2022 können die Versicherten den Symptom-Checker kostenlos nutzen.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/techniker-krankenkasse"
+              }
+            ]
+          },
+          {
+            "name": "Zdrowie",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Unsere Call-Center-Triage-Lösung… unterstützt… Mitarbeiter:innen bei der Ersteinschätzung medizinischer Beschwerden… 37 % der Patient:innen mit neu aufgetretenen Gesundheitsproblemen konnte PZU Zdrowie im Jahr 2019 an eine telemedizinische Beratung weitervermitteln.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/pzu-zdrowie"
+              },
+              {
+                "snippet": "Unsere Call-Center-Triage-Lösung… unterstützt… Mitarbeiter:innen bei der Ersteinschätzung medizinischer Beschwerden… 37 % der Patient:innen mit neu aufgetretenen Gesundheitsproblemen konnte PZU Zdrowie im Jahr 2019 an eine telemedizinische Beratung weitervermitteln.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/pzu-zdrowie"
+              }
+            ]
+          },
+          {
+            "name": "nib",
+            "reasoning": "Evidence on website confirm customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Man entschied sich für die Technologie von Infermedica zur Symptombeurteilung, virtuellen Triage und Versorgungsnavigation… Der Symptom-Checker von nib ist seit 2024 für alle Versicherten in Australien verfügbar.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/nib"
+              },
+              {
+                "snippet": "Man entschied sich für die Technologie von Infermedica zur Symptombeurteilung, virtuellen Triage und Versorgungsnavigation… Der Symptom-Checker von nib ist seit 2024 für alle Versicherten in Australien verfügbar.",
+                "source_type": "vendor_website",
+                "url": "https://infermedica.com/de/case-studies/nib"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 21,
+        "product_name": "Infermedica"
+      }
+    },
+    {
+      "input": {
+        "name": "FirstHx",
+        "url": "https://firsthx.com/",
+        "product_id": "e5926151-65fa-566c-a511-608454fd3e9e"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Hamilton Family Health Team",
+            "reasoning": "Evidence on FirstHx website confirm this customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "“FirstHx is a really great solution, very helpful and noticeably reduces my workload on busy clinic days.”\n\nDr. Olasunkanmi Kehinde\n\nPhysician, Hamilton Family Health Team",
+                "source_type": "vendor_website",
+                "url": "https://firsthx.com/"
+              },
+              {
+                "snippet": "“FirstHx is a really great solution, very helpful and noticeably reduces my workload on busy clinic days.”\n\nDr. Olasunkanmi Kehinde\n\nPhysician, Hamilton Family Health Team",
+                "source_type": "vendor_website",
+                "url": "https://firsthx.com/"
+              }
+            ]
+          },
+          {
+            "name": "MD Connected",
+            "reasoning": "Evidence on FirstHx website confirm this customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "MD Connected has implemented the FirstHx solution for patients seeking care in both virtual and in-person care settings.",
+                "source_type": "vendor_website",
+                "url": "https://firsthx.com/md-connected-implements-firsthx/"
+              }
+            ]
+          },
+          {
+            "name": "Rocket Doctor",
+            "reasoning": "Vendor press release with CEO-level named quote confirming operational use, corroborated by a follow-up post (April 27, 2022) citing live usage metrics (physicians using FirstHx output >80% of the time for documentation, 70% reduction in wait times).",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"We have been very impressed by the positive impact FirstHx has had on our patients, our clinicians and our organizational workflow.\" — Dr. William Cherniak, CEO, Rocket Doctor",
+                "source_type": "vendor_website",
+                "url": "https://firsthx.com/news/rocket-doctor-partners-with-firsthx"
+              }
+            ]
+          },
+          {
+            "name": "The Weight Clinic",
+            "reasoning": "Evidence on FirstHx website confirm this customer.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "That’s when she implemented FirstHx—a web-based platform that captures detailed patient histories before the visit, directly from the patient on their own device. The platform generates a structured, comprehensive report that the entire care team can use.",
+                "source_type": "vendor_website",
+                "url": "https://firsthx.com/case-study-reduced-wait-times-firsthx-weight-clinic/"
+              }
+            ]
+          },
+          {
+            "name": "eVisit NB",
+            "reasoning": "Primary source vendor press release with explicit deployment language and a named co-founder quote confirming active rollout. \"Implements\" language — not \"partners\" or \"integrates.\"",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"eVisitNB is excited to be the first to deploy FirstHx in Atlantic Canada.\" — Dr. Hanif Chatur, co-founder, eVisitNB",
+                "source_type": "vendor_website",
+                "url": "https://firsthx.com/news/evisitnb-implements-firsthx-to-improve-patient-experience-efficiency"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 5,
+        "product_name": "FirstHx",
+        "vendor_name": "FirstHx"
+      }
+    },
+    {
+      "input": {
+        "name": "Fold Health",
+        "url": "https://www.fold.health/",
+        "product_id": "7be8cbac-76cf-5a4e-a350-6c3b68d060ac"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "BowTie Medical",
+            "reasoning": "Evidence on BowTie Medical’s website confirms it uses the Fold Care App for member communications and portal access, demonstrating operational use of Fold Health.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "You can also download the Fold Care App to have all contact options in one place along with member portal access.",
+                "source_type": "vendor_website",
+                "url": "https://www.bowtiemedical.com/faq"
+              }
+            ]
+          },
+          {
+            "name": "Palmetto Primary Care",
+            "reasoning": "First-party self-confirmation from the customer's own website. Palmetto Proactive's privacy policy page explicitly names the Fold Health app as one of their platforms. Additionally, their iOS app's changelog at version 1.8.0 references \"Fold\" by name, and the app's privacy policy is hosted on Fold Health's own S3 bucket (foldhealth-prod-cms-uploads.s3.amazonaws.com) — confirming the app itself is built on Fold's infrastructure. Independently corroborated by trade press (HCI Innovation Group, August 2022) which quotes Fold's co-founder naming \"Palmetto Proactive Healthcare\" explicitly.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"platforms, such as... the Fold Health online and mobile application (the 'App')\" — Palmetto Proactive's own privacy policy.",
+                "source_type": "vendor_website",
+                "url": "https://www.palmettoproactive.com/privacy"
+              },
+              {
+                "snippet": "(August 2022) — names \"Palmetto Proactive Healthcare\" as a Fold customer with a direct Fold co-founder quote.",
+                "source_type": "vendor_website",
+                "url": "https://www.hcinnovationgroup.com/population-health-management/primary-care/article/21276276/fold-health-offers-digital-platform-for-direct-primary-care"
+              }
+            ]
+          },
+          {
+            "name": "Palmetto Proactive",
+            "reasoning": "Evidence on Palmetto Proactive’s own website confirms it works with Fold Health, including use of the Fold Health online and mobile application for patient services.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "This Privacy Policy applies to the information collection and use practices of our online services, which are made available to you through a variety of platforms, such as, without limitation, through the Fold Health online and mobile application (the “App”), our website, located at https://www.palmettoproactive.com (the “Site”).",
+                "source_type": "vendor_website",
+                "url": "https://www.palmettoproactive.com/privacy"
+              },
+              {
+                "snippet": "Another direct primary care provider working with Fold is Palmetto Proactive Healthcare in South Carolina.",
+                "source_type": "vendor_website",
+                "url": "https://www.hcinnovationgroup.com/population-health-management/primary-care/article/21276276/fold-health-offers-digital-platform-for-direct-primary-care"
+              }
+            ]
+          },
+          {
+            "name": "The Lanby",
+            "reasoning": "Evidence from The Lanby’s own member guide confirms it partners with Fold Health to provide its Member app, demonstrating direct operational use of Fold Health.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Login to your Member app: We’ve partnered with Fold Health to provide an easy to use Member app that’s a one-stop-shop for all three pillars of your care.",
+                "source_type": "vendor_website",
+                "url": "https://assets-global.website-files.com/6053b88a7e3de31c4aa14e83/662a90718a31120a0940ca06_Welcome%20%20Your%20guide%20to%20The%20Lanby%20%288%29.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Zócalo Health",
+            "reasoning": "Evidence explicitly confirms Zócalo Health is a Fold Health customer, supported by a testimonial from Zócalo Health CEO Erik Cardenas describing use of Fold Health.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "One of the startups working with Fold is Zocalo Health headed up by Erik Cardenas",
+                "source_type": "vendor_website",
+                "url": "https://www.hcinnovationgroup.com/population-health-management/primary-care/article/21276276/fold-health-offers-digital-platform-for-direct-primary-care"
+              },
+              {
+                "snippet": "Current customers include Zócalo Health, a primary care startup for the Latino community founded by former Amazon Care leader Erik Cardenas.",
+                "source_type": "vendor_website",
+                "url": "https://www.axios.com/pro/health-tech-deals/2022/07/12/fold-health-raises-6-million-seed-primary-care-tech"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 5,
+        "product_name": "Fold Health",
+        "vendor_name": "Fold Health"
+      }
+    },
+    {
+      "input": {
+        "name": "Flatiron OncoEMR",
+        "url": "https://flatiron.com",
+        "product_id": "a122c6df-644e-5b33-babe-16d891e28184"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Alabama Oncology",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Alabama Oncology… has selected OncoEMR® as its electronic medical record of choice.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/alabama-oncology-selects-flatiron-health-oncoemr-to-support-clinical-workflow-and-delivery-of-patient-care"
+              },
+              {
+                "snippet": "Alabama Oncology… has selected OncoEMR® as its electronic medical record of choice.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/alabama-oncology-selects-flatiron-health-oncoemr-to-support-clinical-workflow-and-delivery-of-patient-care"
+              },
+              {
+                "snippet": "Flatiron Health today announced that Alabama Oncology, the largest community-based provider of cancer care services in Alabama, has selected OncoEMR® as its electronic medical record of choice.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/alabama-oncology-selects-flatiron-health-oncoemr-to-support-clinical-workflow-and-delivery-of-patient-care"
+              }
+            ]
+          },
+          {
+            "name": "Cancer Specialists of North Florida",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Cancer Specialists of North Florida ... Runs imaging order report from OncoEMR and addresses all orders of the daily assigned location in a clear, concise, and timely manner.",
+                "source_type": "vendor_website",
+                "url": "https://www.huzzle.app/jobs/imaging-authorization-and-scheduling-dual-coverage-not-remote-575907"
+              }
+            ]
+          },
+          {
+            "name": "Florida Cancer Specialists & Research Institute (FCS)",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "https://www.cancernetwork.com/view/long-roadand-high-road-successful-implementation-oncoemr\nToday at Florida Cancer Specialists, the largest private oncology practice in the state of Florida, a fully integrated, highly efficient, oncology-specific electronic medical record (EMR) forms the backbone of the practice... As we move toward marking a decade of the utilization of Altos OncoEMR, we would like to reflect on the experience...",
+                "source_type": "vendor_website",
+                "url": "https://www.cancernetwork.com/view/long-roadand-high-road-successful-implementation-oncoemr"
+              }
+            ]
+          },
+          {
+            "name": "New York Cancer and Blood Specialists",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "The practice uses Flatiron's OncoEMR, which is flexible for oncology and has all the different pieces of information needed for the treatment of various diseases.",
+                "source_type": "vendor_website",
+                "url": "https://technologymagazine.com/company-reports/new-york-cancer-blood-specialists-nycbs"
+              },
+              {
+                "snippet": "DeepScribe integrates directly with the NYCBS’s electronic health record system (Flatiron Health’s OncoEMR®), to enhance patient care, save time for clinicians, and ensure comprehensive documentation.",
+                "source_type": "vendor_website",
+                "url": "https://nycancer.com/news/new-york-cancer-and-blood-specialists-adopt-the-deepscribe-ambient-operating-system-for-oncology"
+              },
+              {
+                "snippet": "DeepScribe integrates directly with the NYCBS’s electronic health record system (Flatiron Health’s OncoEMR®), to enhance patient care, save time for clinicians, and ensure comprehensive documentation.",
+                "source_type": "vendor_website",
+                "url": "https://nycancer.com/news/new-york-cancer-and-blood-specialists-adopt-the-deepscribe-ambient-operating-system-for-oncology"
+              }
+            ]
+          },
+          {
+            "name": "Northwest Medical Specialties",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Flatiron Health today announced that Northwest Medical Specialties, a leading provider of care for cancer and infectious diseases in the Puget Sound region of Washington, has selected OncoEMR® to help transform their delivery of high quality, comprehensive cancer care.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/northwest-medical-specialties-select-flatiron-healths-oncoemr-to-accelerate-clinical-transformation"
+              }
+            ]
+          },
+          {
+            "name": "Oncology Consultants",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Flatiron Health announced today that Oncology Consultants, a community oncology practice with 15 physicians in eight locations throughout the greater Houston area, selected OncoEMR® as their medical oncology electronic-health record (EHR).",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/oncology-consultants-selects-flatiron-health-oncoemr"
+              }
+            ]
+          },
+          {
+            "name": "Pontchartrain Cancer Center",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "She also shares the value her practice has seen in using OncoEMR®, Flatiron’s oncology-specific EHR, the OncoEMR® Research Tab, a feature that enables sites to document study-specific information in a structured, digitized format, and OncoTrials®...",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/point-of-care/scaling-research-operations-at-community-oncology-practices"
+              }
+            ]
+          },
+          {
+            "name": "South Carolina Oncology Associates",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Flatiron Health today announced that South Carolina Oncology Associates, one of the only physician-owned, comprehensive cancer treatment center in South Carolina, has selected OncoEMR® to better manage clinical workflows and help transform their delivery of high quality cancer care.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/south-carolina-oncology-associates-choose-flatiron-health-oncoemr"
+              }
+            ]
+          },
+          {
+            "name": "Tennessee Oncology",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "As part of this partnership, Tennessee Oncology will transition to Flatiron Health’s OncoCloud suite of products including OncoEMR and OncoAnalytics... Tennessee Oncology... will utilize Flatiron Health’s OncoEMR®, OncoAnalytics® and new value-based care solution to help ensure successful participation in the Centers for Medicare and Medicaid Services Oncology Care Model (OCM) program.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/tennessee-oncology-and-flatiron-health-partner-to-advance-the-development-of-value-based-care-products-and-services"
+              }
+            ]
+          },
+          {
+            "name": "West Cancer Center",
+            "reasoning": "Evidence on website confirm this customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "West Cancer Center selected OncoEMR® and OncoAnalytics® to enhance the delivery of high quality evidence-based care, support participation in alternative payment models and better manage clinical workflows.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/west-cancer-center-chooses-flatiron-healths-oncoemr-and-oncoanalytics-to-support-high-quality-patient-care"
+              },
+              {
+                "snippet": "Flatiron Health and West Cancer Center today announced that West Cancer Center selected OncoEMR® and OncoAnalytics® to enhance the delivery of high quality evidence-based care, support participation in alternative payment models and better manage clinical workflows.",
+                "source_type": "vendor_website",
+                "url": "https://resources.flatiron.com/press/press-release/west-cancer-center-chooses-flatiron-healths-oncoemr-and-oncoanalytics-to-support-high-quality-patient-care"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 10,
+        "product_name": "Flatiron OncoEMR",
+        "vendor_name": "Flatiron Health"
+      }
+    },
+    {
+      "input": {
+        "name": "AgileMD Clinical Pathways",
+        "url": "https://www.agilemd.com/#Solution-Pathways",
+        "product_id": "fcd89a81-9ede-5dee-97e2-4d9f5ea25f0e"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Children’s Hospital Colorado",
+            "reasoning": "Customer's own clinical pathways page directs clinicians to AgileMD.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Please visit Children's Hospital Colorado on AgileMD for pathways and clinical guidance.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.childrenscolorado.org/health-professionals/clinical-resources/clinical-pathways/"
+              }
+            ]
+          },
+          {
+            "name": "Johns Hopkins Medicine",
+            "reasoning": "Customer's own clinical pathways page directs clinicians to AgileMD.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"See the Hopkins Medicine's updated pathways using AgileMD or download the PDFs below.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.hopkinsmedicine.org/all-childrens-hospital/health-professionals/clinical-pathways"
+              }
+            ]
+          },
+          {
+            "name": "Penn Medicine",
+            "reasoning": "Penn Medicine's own Center for Evidence-based Practice page announces the transition from their internal PennPathways tool to AgileMD, effective June 30, 2023.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"PennPathways is Transitioning to AgileMD!\"",
+                "source_type": "vendor_website",
+                "url": "https://www.med.upenn.edu/CEP/pennpathways-agilemd.html"
+              }
+            ]
+          },
+          {
+            "name": "UCHealth Colorado",
+            "reasoning": "Customer's own innovation portfolio page lists AgileMD as an active deployment.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"AgileMD has currently created 222 unique pathways with eight different service lines and many additional collaborators at UCHealth.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.uchealth.org/innovation/portfolios/agilemd/"
+              }
+            ]
+          },
+          {
+            "name": "UF Health",
+            "source": "marketplace"
+          },
+          {
+            "name": "UNC Health",
+            "reasoning": "Customer's own newsroom confirms active deployment since February 2024.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Over 1,500 clinicians have leveraged the tool for more than 3,000 patients since the February 2024 go-live.\"",
+                "source_type": "vendor_website",
+                "url": "https://news.unchealthcare.org/2024/12/unc-health-taps-agilemd-to-address-iv-fluid-shortage/"
+              }
+            ]
+          },
+          {
+            "name": "Vanderbilt University Medical Center",
+            "reasoning": "Peer-reviewed publication in Annals of Emergency Medicine (2025) explicitly names AgileMD as the EHR-based treatment pathway used at Vanderbilt to improve SEP-1 bundle compliance.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"an EHR-based treatment pathway (AgileMD) that incorporated components of the SEP-1 metrics\"",
+                "source_type": "vendor_website",
+                "url": "https://www.annemergmed.com/article/S0196-0644(25)00786-3/fulltext"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 7,
+        "product_name": "AgileMD Clinical Pathways"
+      }
+    },
+    {
+      "input": {
+        "name": "Cadence",
+        "url": "https://cadence.care/",
+        "product_id": "002fbe67-c13a-5438-834e-8cf47c95e9c1"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Ardent Health Services",
+            "reasoning": "Dedicated partnership announcement on Cadence's own blog.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Cadence today announced a partnership with Ardent Health Services to implement a remote patient monitoring and responsive virtual care program across Ardent's operations.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.cadence.care/post/cadence-and-ardent-health-services-launch-remote-care-management-program-to-improve-care-and-outcomes-for-patients-outside-of-clinics"
+              }
+            ]
+          },
+          {
+            "name": "BayCare Health System",
+            "reasoning": "BayCare's own 2024 Annual Report PDF explicitly names Cadence.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"BayCare Medical Group (BMG) implemented remote patient monitoring with… disease management company Cadence, BayCare captured real-time vital signs…\"",
+                "source_type": "vendor_website",
+                "url": "https://baycare.org/-/media/project/baycare/consumer-portal/about-us/annual-report/2024-annual-report/2024-report-to-the-community-web-final.pdf"
+              }
+            ]
+          },
+          {
+            "name": "CHS",
+            "reasoning": "Cadence's own homepage carries a named testimonial attributed to a CHS affiliate.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"With remote patient monitoring and active management, Cadence has provided an invaluable service to our practice.\" — South Baldwin Medical Group, Community Health Systems",
+                "source_type": "vendor_website",
+                "url": "https://www.cadence.care/"
+              }
+            ]
+          },
+          {
+            "name": "Corewell Health",
+            "reasoning": "Named with logo in Cadence's own 2023 Outcomes Report.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Image: Corewell Health… The data show that Cadence's remote monitoring solution is a win-win-win…\"",
+                "source_type": "vendor_website",
+                "url": "https://www.cadence.care/outcomes-report-2023"
+              }
+            ]
+          },
+          {
+            "name": "Duke Health",
+            "reasoning": "Duke Health's own patient-facing page explicitly names Cadence as the program provider.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Duke Health has partnered with Cadence to bring you Duke Health Connected, a service that helps your care team manage your health between office visits with at-home health monitoring… you'll receive an easy-to-use monitoring device and speak directly with our care team.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.dukehealth.org/duke-health-connected"
+              }
+            ]
+          },
+          {
+            "name": "Hackensack Meridian Health",
+            "reasoning": "Hackensack Meridian's own website names Cadence by name as their RPM partner.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Hackensack Meridian Medical Group has partnered with Cadence to bring you remote patient monitoring… You will then be enrolled in the program, which is powered by Cadence.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.hackensackmeridianhealth.org/en/medical-group/remote-patient-monitoring"
+              }
+            ]
+          },
+          {
+            "name": "Lifepoint Health",
+            "reasoning": "LifePoint Health's own website hosts a white paper announcing the founding partnership.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"In conjunction with its launch, Cadence has forged a founding partnership with leading national healthcare company, LifePoint Health.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.lifepointhealth.net/white-papers/introducing-cadence-a-new-health-tech-company-redefining-remote-care-for-the-nations-largest-health-systems"
+              }
+            ]
+          },
+          {
+            "name": "MemorialCare",
+            "source": "marketplace"
+          },
+          {
+            "name": "Montage Health",
+            "reasoning": "Cadence's own health systems page carries a named, attributed testimonial from the CEO of Montage Medical Group.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Ultimately, it's a win-win — patients feel more empowered, and our clinicians are able to deliver care more efficiently and effectively.\" — Dr. Carvalho, CEO, Montage Medical Group",
+                "source_type": "vendor_website",
+                "url": "https://www.cadence.care/health-systems"
+              }
+            ]
+          },
+          {
+            "name": "Montefiore Einstein",
+            "reasoning": "Montefiore Einstein's own news page names Cadence as the RPM vendor selected in 2025.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"In 2025, Drs. Rikin and Stark identified a new vendor, Cadence. Its providers now conduct the telehealth visits and patient education.\"",
+                "source_type": "vendor_website",
+                "url": "https://montefioreeinstein.org/news/2026/02/05/controlling-high-blood-pressure-home-where-heart"
+              }
+            ]
+          },
+          {
+            "name": "Providence",
+            "reasoning": "Providence's own patient-facing RPM page names Cadence as the program provider.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Patients with hypertension, congestive heart failure or type 2 diabetes can stay connected with their health care team between visits by enrolling in Providence's Remote Patient Monitoring (RPM) program with Cadence.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.providence.org/vcdh/about/rpm"
+              }
+            ]
+          },
+          {
+            "name": "Rush University Medical Center",
+            "reasoning": "Cadence's own clinicians page carries a named, attributed quote from a RUSH physician; logo also on cadence.care homepage.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"With [Cadence], I have access to consistent, real-time data that provides a clearer picture of a patient's health.\" — Dr. Jennifer Earvolino, RUSH University Medical Center",
+                "source_type": "vendor_website",
+                "url": "https://www.cadence.care/clinicians"
+              }
+            ]
+          },
+          {
+            "name": "ScionHealth",
+            "reasoning": "Dedicated partnership announcement on Cadence's own blog.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"Cadence today announced a partnership with ScionHealth to implement a remote care management and responsive virtual care program across ScionHealth's national footprint.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.cadence.care/post/cadence-and-scionhealth-partnership"
+              }
+            ]
+          },
+          {
+            "name": "Village Medical",
+            "reasoning": "Village Medical's own patient-facing page names Cadence.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"We are working with Cadence to provide you with an easy-to-use monitoring device at no extra cost.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.villagemedical.com/staywellathome"
+              }
+            ]
+          },
+          {
+            "name": "Yale New Haven Health",
+            "reasoning": "Yale New Haven Health's own digital health page names Cadence.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"The program is offered by our partners, Cadence, a leading healthcare company specializing in remote monitoring… the Cadence care team [will] help you manage the health condition.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.ynhhs.org/patient-care/digital-health/connected-care"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 15,
+        "product_name": "Cadence"
+      }
+    },
+    {
+      "input": {
+        "name": "New Lantern",
+        "url": "https://newlantern.ai/",
+        "product_id": "7614d8cd-0d90-54f2-bbbd-f40980ab3655"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "California Advanced Imaging Medical Associates",
+            "reasoning": "New Lantern website shows California Advanced Imaging Medical Associates logo listed under \ntrusted by: customer list.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "TRUSTED BY\nImage: California Advanced Imaging Medical Associates logo",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              }
+            ]
+          },
+          {
+            "name": "Main Street Radiology",
+            "reasoning": "New Lantern website shows Main Street Radiology Ltd logo listed under \ntrusted by: customer list.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "TRUSTED BY\nImage: Main Street Radiology logo",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              },
+              {
+                "snippet": "Main Street Radiology provides expert radiology and medical imaging services, including CT scans , PET scans , bone density tests , digital X-rays , MRIs, ultrasounds and more to residents throughout 5 boroughs in Queens, New York.",
+                "source_type": "vendor_website",
+                "url": "https://www.mainstreetradiology.com/"
+              }
+            ]
+          },
+          {
+            "name": "Milwaukee Radiologists",
+            "reasoning": "New Lantern website shows Milwaukee Radiologists Ltd logo listed under \ntrusted by: customer list.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "TRUSTED BY\nImage: Milwaukee Radiologists Ltd logo",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              }
+            ]
+          },
+          {
+            "name": "Naugatuck Valley Radiology",
+            "reasoning": "New Lantern website shows Naugatuck Valley Radiology logo listed under \ntrusted by: customer list.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "TRUSTED BY\nImage: Naugatuck Valley Radiology logo",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              },
+              {
+                "snippet": "Naugatuck Valley Radiological Associates (NVRA) is an institute of diagnostic imaging staffed with 11 highly trained and board-certified radiologists who strive to provide the best patient care.",
+                "source_type": "vendor_website",
+                "url": "https://www.nvranet.com/"
+              }
+            ]
+          },
+          {
+            "name": "Radiology Associates",
+            "source": "marketplace"
+          },
+          {
+            "name": "Radiology Associates of Corpus Christi",
+            "reasoning": "The case study indicates that Radiology Associates chose New Lantern to enhance their digital platform.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Radiology Associates chose New Lantern to replace its fragmented setup with a single cloud-native platform: viewer, dictation, reporting, and worklist in one place.",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/resources/racc-casestudy"
+              }
+            ]
+          },
+          {
+            "name": "Radiology One",
+            "reasoning": "New Lantern website shows Radiology One logo listed under \ntrusted by: customer list.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "TRUSTED BY\nImage: Radiology One logo",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              }
+            ]
+          },
+          {
+            "name": "Rads Inc",
+            "reasoning": "Rads Inc. logo is shown on the official New Lantern website under 'trusted by' for customers section as one of their users.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Radiologist, Executive Committee at Rads Inc.",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              },
+              {
+                "snippet": "New Lantern has fundamentally improved my efficiency by automating the high-friction and repetitive tasks that slow me down.",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              }
+            ]
+          },
+          {
+            "name": "Southern Radiology Ventures",
+            "reasoning": "The customer testimony on New Latern website confirm that New Lantern was deployed by Southern Radiology Ventures to double in size, and continue to grow.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Since deploying New Lantern in January, Southern Radiology Ventures has doubled in size, and we continue to grow.",
+                "source_type": "vendor_website",
+                "url": "https://newlantern.ai/"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 9,
+        "product_name": "New Lantern"
+      }
+    },
+    {
+      "input": {
+        "name": "Arrive Health",
+        "url": "https://arrivehealth.com/solutions/providers/",
+        "product_id": "49223ad7-d4e9-5414-88d5-cbb626f2c516"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Asuris Northwest Health",
+            "reasoning": "Evidence from website confirm this partnership.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "To create easier access to a preferred medication database for our members, we’ve partnered with Arrive Health to integrate a real-time benefit check tool for prescribed medications that works within your electronic medical record (EMR) system.",
+                "source_type": "vendor_website",
+                "url": "https://www.asuris.com/provider/pre-authorization/pharmacy"
+              }
+            ]
+          },
+          {
+            "name": "BridgeSpan Health",
+            "reasoning": "Website provides evidence BridgeSpan Health partnered with Arrive Health to provide a real-time benefit check tool for its members and providers, demonstrating operational use of the solution.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "To create easier access to a preferred medication database for our members, we’ve partnered with Arrive Health to integrate a real-time benefit check tool for prescribed medications that works within your electronic medical record (EMR) system.",
+                "source_type": "vendor_website",
+                "url": "https://www.bridgespanhealth.com/provider/programs/pharmacy"
+              }
+            ]
+          },
+          {
+            "name": "Froedtert Hospital",
+            "reasoning": "Official press release states the health network expanded its partnership with RxRevu to include integrated tools, demonstrating operational use.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "UnityPoint Health, the Froedtert & the Medical College of Wisconsin health network, UCHealth, and others have expanded their partnerships with RxRevu to include integrated tools that improve care coordination and patient experience.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-significantly-expands-health-system-network-to-meet-patient-affordability-demands/"
+              },
+              {
+                "snippet": "UnityPoint Health, the Froedtert & the Medical College of Wisconsin health network, UCHealth, and others have expanded their partnerships with RxRevu to include integrated tools that improve care coordination and patient experience.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-significantly-expands-health-system-network-to-meet-patient-affordability-demands/"
+              }
+            ]
+          },
+          {
+            "name": "Hospital Sisters Health System",
+            "reasoning": "Official press release identifies HSHS as a participating health system in RxRevu's network, supporting a customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "RxRevu’s growing list of health system partners also now includes St. Luke’s University Health Network, Hospital Sisters Health System, and UVA Health, among other nationally-ranked health systems.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-significantly-expands-health-system-network-to-meet-patient-affordability-demands/"
+              }
+            ]
+          },
+          {
+            "name": "Optum Rx",
+            "reasoning": "Official Arrive Health press coverage states that Arrive Health has worked with OptumRx since 2018 and delivers real-time benefit check services supporting millions of prescribing events for OptumRx, demonstrating operational use of the solution",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Sindhwani, senior vice president, payer/PBM market growth for Arrive Health, a real-time benefits check company that used to be called RxRevu, and Lauren Hackenberg, Pharm.D., senior EHR engagement director for OptumRx, led a session on real-time benefit check at the PBMI meeting today that focused on Arrive Health and the work it has done with OptumRx. The two companies have been doing business with together since 2018. ... Another slide she presented said that as an OptumRx partner, Arrive Health handles 2 million unique prescribing events per month and that its services extend to a million people covered by OptumRx.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/a-real-time-benefit-check-success-story-2022-pbmi-annual-national-conference/"
+              }
+            ]
+          },
+          {
+            "name": "Prime Therapeutics",
+            "reasoning": "Press release confirms that Prime Therapeutics LLC (Prime) and RxRevu, has teamed up to offer Real Time Benefit Check, aka Real-Time Prescription Benefit, aiming to improve members' health.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "EAGAN, Minn. – Sept. 3, 2020 – Prime Therapeutics LLC (Prime) and RxRevu, the nation’s leading prescription price transparency company, are teaming up to offer Real Time Benefit Check, aka Real-Time Prescription Benefit, aiming to improve members’ health while bringing down costs and creating a more positive pharmacy experience.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/prime-therapeutics-and-rxrevu-deploy-real-time-benefit-check-solution-to-improve-prescription-price-transparency-for-members/"
+              },
+              {
+                "snippet": "Prime Therapeutics LLC (Prime) and RxRevu, the nation’s leading prescription price transparency company, are teaming up to offer Real Time Benefit Check, aka Real-Time Prescription Benefit, aiming to improve members’ health while bringing down costs and creating a more positive pharmacy experience. ... The integration of Prime’s member data into RxRevu’s platform gives prescribers seamless access to benefit information they can trust.",
+                "source_type": "vendor_website",
+                "url": "https://pharmacy.primetherapeutics.com/content/dam/corporate/Documents/Newsroom/Pressreleases/2020/document-release-2020-real-time-benefit-check-RxRevu.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Providence",
+            "reasoning": "Official press release confirms Providence deployed and actively uses RxRevu's Real-Time Prescription Benefit solution across its health system, demonstrating operational use. The strategic partnership is an additional relationship and does not replace the customer relationship they already have.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "The investment and expanded partnership come one year after Providence deployed RxRevu’s Real-Time Prescription Benefit solution, giving providers the ability to quickly and easily find medication alternatives specific to each patient’s health needs and insurance benefits.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-secures-new-funding-from-providence-ventures-to-drive-decision-support-innovation/"
+              }
+            ]
+          },
+          {
+            "name": "Regence",
+            "reasoning": "Evidence from website confirm this partnership.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "To create easier access to a preferred medication database for our members, we’ve partnered with Arrive Health to integrate a real-time benefit check tool for prescribed medications that works within your electronic medical record (EMR) system.",
+                "source_type": "vendor_website",
+                "url": "https://www.regence.com/provider/programs/pharmacy"
+              }
+            ]
+          },
+          {
+            "name": "St Luke's University Health Network",
+            "reasoning": "St Luke's University Health Network actively uses RxRevu's solution in clinical practice across its health system, with providers using the technology during patient care, demonstrating operational use and a customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "St. Luke’s University Health Network partnered with Arrive Health (formerly RxRevu) to integrate real-time prescription and cost data directly into the physician’s electronic health record (EHR)",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-significantly-expands-health-system-network-to-meet-patient-affordability-demands/"
+              }
+            ]
+          },
+          {
+            "name": "UCHealth Colorado",
+            "reasoning": "UCHealth actively uses RxRevu's solution in clinical practice across its health system, with providers using the technology during patient care, demonstrating operational use and a customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Arrive Health, formerly RxRevu, has proven to save patients money on their prescriptions. It’s available to the roughly 4,000 drug-prescribing providers in the UCHealth health system and 300,000 providers around the country capable of serving 250 million patients.",
+                "source_type": "vendor_website",
+                "url": "https://www.uchealth.org/today/arrive-health-helps-doctors-cuts-prescription-costs-for-patients/"
+              },
+              {
+                "snippet": "UCHealth turned to RxRevu, a vendor of real-time prescription benefit software, for help. ... UCHealth implemented the real-time prescription benefit technology across all 16 of its hospitals and 1,000 clinics in the Rocky Mountain region. ... \"RxRevu's technology now is used every single day by UCHealth physicians,\" Lin said. \"In 2021, about 4,500 providers within the health system had access to real-time prescription benefit cost and coverage data, and more than 2,200 prescription transactions were made daily with this information available.\"",
+                "source_type": "vendor_website",
+                "url": "https://www.healthcareitnews.com/news/uchealth-changes-prescribing-behavior-better-real-time-transparency-data"
+              }
+            ]
+          },
+          {
+            "name": "UPMC",
+            "reasoning": "MedCity News reports that UPMC deployed Arrive Health's technology at its own facilities, demonstrating operational use. The official Arrive Health website also displays UPMC as a customer logo, supporting a customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "PITTSBURGH (July 21, 2020) – UPMC, a world-renowned health care organization that includes UPMC Health Plan, the largest health insurer in western Pennsylvania, implemented a new technology in partnership with RxRevu to enable its physicians to help patients lower prescription drug costs based upon their insurance coverage.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/upmc-announces-patient-centered-initiative-to-reduce-out-of-pocket-prescription-drug-costs-for-upmc-health-plan-members/"
+              },
+              {
+                "snippet": "Working with Arrive Health, UPMC leveraged integrated technology to highlight its own pharmacies within the ePrescribing workflow, essentially re-directing revenue back into the system.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/health-systems-untapped-growth-opportunity-pharmacy/"
+              },
+              {
+                "snippet": "Arrive Health (formerly RxRevu) recently acquired a suite of technology developed at UPMC. The technology suite includes an AI-powered chatbot and customer relationship management platform, both designed to support improved medication adherence and prescription capture rates. ... UPMC saw positive impacts on medication adherence when it deployed the technology at its own facilities. The solutions improved refill rates by 200% and reduced 7-day readmissions by 32%.",
+                "source_type": "vendor_website",
+                "url": "https://medcitynews.com/2023/01/arrive-health-acquires-medication-adherence-tech-from-upmc/"
+              }
+            ]
+          },
+          {
+            "name": "UnityPoint Health",
+            "reasoning": "Official press release states UnityPoint Health expanded its partnership with RxRevu to include integrated tools, indicating operational use of the product.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "UnityPoint Health, the Froedtert & the Medical College of Wisconsin health network, UCHealth, and others have expanded their partnerships with RxRevu to include integrated tools that improve care coordination and patient experience.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-significantly-expands-health-system-network-to-meet-patient-affordability-demands/"
+              },
+              {
+                "snippet": "UnityPoint Health, the Froedtert & the Medical College of Wisconsin health network, UCHealth, and others have expanded their partnerships with RxRevu to include integrated tools that improve care coordination and patient experience.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-significantly-expands-health-system-network-to-meet-patient-affordability-demands/"
+              }
+            ]
+          },
+          {
+            "name": "University of Pittsburgh",
+            "reasoning": "Cross-referenced with info on website",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "The University of Pittsburgh and its affiliated health system, UPMC, are heavily integrated with Arrive Health through a strategic technology partnership.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/upmc-announces-patient-centered-initiative-to-reduce-out-of-pocket-prescription-drug-costs-for-upmc-health-plan-members/"
+              }
+            ]
+          },
+          {
+            "name": "University of Virginia Health System",
+            "reasoning": "Official press release lists UVA Health among health systems using RxRevu's network and solutions.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "RxRevu’s growing list of health system partners also now includes St. Luke’s University Health Network, Hospital Sisters Health System, and UVA Health, among other nationally-ranked health systems.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/press/rxrevu-significantly-expands-health-system-network-to-meet-patient-affordability-demands/"
+              }
+            ]
+          },
+          {
+            "name": "Watson Clinic",
+            "reasoning": "Official website of Arrive shows that Watson Clinic implemented and used RxRevu's solution in clinical practice to improve prescribing workflows, confirming a customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Gionte Solomon… explained Watson Clinic’s intentions in partnering with RxRevu—primarily to reduce patient prescription costs and reduce pharmacy callbacks.",
+                "source_type": "vendor_website",
+                "url": "https://arrivehealth.com/videos/webinar-recap-empowering-providers-with-real-time-cost-and-coverage-data/"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 15,
+        "product_name": "Arrive Health"
+      }
+    },
+    {
+      "input": {
+        "name": "Abridge",
+        "url": "https://www.abridge.com/",
+        "product_id": "377bdcc2-98fc-53c4-b1ea-150825835113"
+      },
+      "expected": {
+        "customers": [
+          {
+            "name": "Akron Children’s Hospital",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Akron Children's…is expanding use of the Abridge generative AI platform for clinical conversations across pediatric specialties, including primary care, gastroenterology, cardiology, and pediatric psychiatry.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/akron-childrens-abridge"
+              }
+            ]
+          },
+          {
+            "name": "Allegheny Health Network (AHN)",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "AHN will use Abridge’s AI-powered ambient clinical intelligence platform",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/highmark-health-ahn-abridge-prior-authorization"
+              }
+            ]
+          },
+          {
+            "name": "AltaMed",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge has been chosen by AltaMed Health Services Corporation…as its AI platform for documenting clinical conversations…across the organization in all care settings and specialties.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/altamed-abridge"
+              }
+            ]
+          },
+          {
+            "name": "CHRISTUS Health",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Following a highly successful 2-month pilot aimed at improving physician well-being and delivering the best possible care to patients, CHRISTUS Health has decided to roll Abridge out enterprise-wide.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/case-study/christus-health"
+              }
+            ]
+          },
+          {
+            "name": "Cambridge Health Alliance",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge…has finalized an agreement with Cambridge Health Alliance…CHA chose Abridge because of its industry-leading multilingual capabilities that empower its clinicians…to better serve its diverse…community.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/cambridge-health-alliance-announcement"
+              },
+              {
+                "snippet": "Abridge…has finalized an agreement with Cambridge Health Alliance…CHA chose Abridge because of its industry-leading multilingual capabilities that empower its clinicians…to better serve its diverse…community.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/cambridge-health-alliance-announcement"
+              }
+            ]
+          },
+          {
+            "name": "Christus Trinity Mother Frances Health System",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Following a highly successful 2-month pilot…CHRISTUS Health has decided to roll Abridge out enterprise-wide.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/case-study/christus-health"
+              },
+              {
+                "snippet": "Following a highly successful 2-month pilot…CHRISTUS Health has decided to roll Abridge out enterprise-wide.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/case-study/christus-health"
+              }
+            ]
+          },
+          {
+            "name": "Corewell Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Corewell Health™ has chosen Abridge as its enterprise-wide AI platform for clinical documentation…Abridge will be available to 4,000 Corewell Health physicians and advanced practice providers across 21 hospitals and 300+ outpatient and post-acute locations.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/case-study/corewell-health"
+              }
+            ]
+          },
+          {
+            "name": "Dayton Children's Hospital",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Dayton Children’s Hospital, a pediatric acute care hospital located in Dayton, Ohio, has implemented the Abridge generative AI platform for clinical conversations to improve clinician and patient experiences while reducing cognitive load and burnout.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/blog/dayton-childrens-whitlock-omoloja"
+              }
+            ]
+          },
+          {
+            "name": "Deaconess Health System",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Deaconess Health System…is expanding the use of Abridge, a generative AI platform for clinical documentation, across its 19-hospital network.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/deaconess-health-system-announcement"
+              }
+            ]
+          },
+          {
+            "name": "Duke Health",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Duke Health, one of the most prestigious academic health centers in the world, is partnering with Abridge to deploy standard-setting generative AI technology to its 𝟱,𝟬𝟬𝟬 𝗰𝗹𝗶𝗻𝗶𝗰𝗶𝗮𝗻𝘀 to improve efficiency and patient care.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/blog/duke-health-chooses-abridge-for-5000-clinicians"
+              }
+            ]
+          },
+          {
+            "name": "Emory Healthcare",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge and Apple Transform Clinical Workflows at Emory Healthcare",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/blog/abridge-apple-emory"
+              }
+            ]
+          },
+          {
+            "name": "Geisinger Health Plan",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "## Trusted by leading healthcare systems Geisinger Health HonorHealth Rochester Regional Health WVU Medicine University Hospitals UCHealth Inova Health OhioHealth UI Health Christus Health UPMC Northwell Health…",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/customers"
+              }
+            ]
+          },
+          {
+            "name": "Hartford Healthcare Heart & Vascular Institute",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge’s AI-powered ambient clinical intelligence platform has been selected by Hartford HealthCare…following a rigorous evaluation and successful pilot…to scale its enterprise-grade platform to nurses, physicians, and advanced practitioners across Hartford HealthCare.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/abridge-hartford-healthcare"
+              },
+              {
+                "snippet": "Abridge’s AI-powered ambient clinical intelligence platform has been selected by Hartford HealthCare…following a rigorous evaluation and successful pilot…to scale its enterprise-grade platform to nurses, physicians, and advanced practitioners across Hartford HealthCare.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/abridge-hartford-healthcare"
+              }
+            ]
+          },
+          {
+            "name": "Hospital for Special Surgery",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "HSS…is implementing the Abridge AI platform across the enterprise to enhance care for approximately 200,000 patients annually.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/hss-abridge"
+              }
+            ]
+          },
+          {
+            "name": "Inova",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge is trusted by 200+ health systems including…Inova Health…Tanner Health…UNC Health…Mayo Clinic.",
+                "source_type": "vendor_website",
+                "url": "https://trust.abridge.com/"
+              }
+            ]
+          },
+          {
+            "name": "Johns Hopkins Medicine",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge has finalized an agreement with Johns Hopkins Medicine to implement Abridge’s ambient AI platform across its 6,700 clinicians, six hospitals, and 40 patient-care centers.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/hopkins-abridge"
+              }
+            ]
+          },
+          {
+            "name": "Kaiser Permanente",
+            "reasoning": "Two primary sources confirmed: Kaiser Permanente's own press release and Abridge's own blog — both explicitly naming the partnership.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "\"The tool, powered by ambient listening technology from Abridge, supports doctors and other clinicians with securely capturing clinical notes during visits with patients.\"",
+                "source_type": "vendor_website",
+                "url": "https://about.kaiserpermanente.org/news/press-release-archive/kaiser-permanente-improves-member-experience-with-ai-enabled-clinical-technology"
+              },
+              {
+                "snippet": "\"We are thrilled to work with the incredible physicians and project team members at Kaiser Permanente to help implement Abridge in multiple care settings.\" — Dr. Shiv Rao, CEO, Abridge",
+                "source_type": "vendor_website",
+                "url": "https://www.prnewswire.com/news-releases/kaiser-permanente-improves-member-experience-with-ai-enabled-clinical-technology-302221909.html"
+              }
+            ]
+          },
+          {
+            "name": "Lee Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Lee Health…was looking for a solution to ease the burden of documentation…WITH ABRIDGE, LEE HEALTH HAS SEEN: 86% of clinicians do less after-hours work.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/case-study/lee-health"
+              }
+            ]
+          },
+          {
+            "name": "Mayo Clinic",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge has finalized an enterprise-wide agreement with Mayo Clinic to implement the AI-powered clinical documentation platform, starting with approximately 2,000 clinicians who serve over 1 million patients annually.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/mayo-clinic-announcement"
+              }
+            ]
+          },
+          {
+            "name": "Memorial Sloan Kettering",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge announced that its AI platform to support clinical conversations will be utilized by Memorial Sloan Kettering Cancer Center (MSK) clinicians in an extensive rollout that will take place throughout 2025 and 2026.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/msk-abridge"
+              }
+            ]
+          },
+          {
+            "name": "MemorialCare",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge is trusted by 200+ health systems including…The University of Kansas Health System…MemorialCare…Yale New Haven Health.",
+                "source_type": "vendor_website",
+                "url": "https://trust.abridge.com/"
+              }
+            ]
+          },
+          {
+            "name": "OhioHealth",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "“The team’s responsiveness and flexibility made the decision clear. This partnership reflects our long-term vision and values…” Andrea Darby, Vice President of Applications, OhioHealth.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/customers"
+              }
+            ]
+          },
+          {
+            "name": "Reid Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "“Abridge is expanding access to care. The freed-up time has increased efficiency for the entire care team to where we've dropped responses to patient calls down to seconds.”…Reid Health.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/customers"
+              }
+            ]
+          },
+          {
+            "name": "Riverside Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Customer impact 11% wRVU Increase at Riverside Health…14% increase in HCC diagnoses documented per encounter at Riverside Health.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/platform/revenue-cycle"
+              }
+            ]
+          },
+          {
+            "name": "Rochester Regional Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Trusted by leading healthcare systems Geisinger Health HonorHealth Rochester Regional Health WVU Medicine University Hospitals UCHealth Inova Health…",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/customers"
+              }
+            ]
+          },
+          {
+            "name": "Seattle Children’s",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge has finalized an enterprise-wide agreement with Seattle Children’s to deploy its AI-powered ambient clinical intelligence platform across the health system, following a successful 90-day pilot spanning 18 pediatric specialties.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/sch-abridge"
+              }
+            ]
+          },
+          {
+            "name": "Sharp Healthcare",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Sharp HealthCare Chooses Abridge for Clinical Documentation, Enabling Clinicians to Focus on Care—Not Coding",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/sharp-abridge"
+              }
+            ]
+          },
+          {
+            "name": "Sutter Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Following a successful pilot, Sutter Health rapidly expanded Abridge to 1,000+ clinicians within three months in order to improve patient experiences by supporting more focused face-time with clinicians.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/case-study/sutter-health"
+              }
+            ]
+          },
+          {
+            "name": "Tanner Health System",
+            "reasoning": "Cross-referenced with Abridge website, confirmed customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Tanner Health Deploys Abridge Across Specialties With Focus on Transforming Behavioral Health Practice",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/blog/tanner-health-abridge"
+              }
+            ]
+          },
+          {
+            "name": "The University of Chicago Medicine",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "UChicago Medicine will now expand the Abridge platform across the healthcare system to over 800 clinicians…UChicago Medicine will expand the program to more than 800 clinicians across its health system.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/uchicago-medicine-results"
+              },
+              {
+                "snippet": "UChicago Medicine will now expand the Abridge platform across the healthcare system to over 800 clinicians…UChicago Medicine will expand the program to more than 800 clinicians across its health system.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/uchicago-medicine-results"
+              }
+            ]
+          },
+          {
+            "name": "UCHealth Colorado",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "UCHealth…is partnering with Abridge to bring enterprise-grade artificial intelligence to clinical locations across the state…Now over one-third of about 6,000 UCHealth doctors, nurse practitioners, and physician assistants are using Abridge.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/uchealth-scales-abridge"
+              }
+            ]
+          },
+          {
+            "name": "UCI Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "UCI Health…has adopted its leading generative AI solution for clinical documentation. The deployment will be focused on reducing the burden of clinical documentation and improving operational efficiency for clinicians across the system.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/uci-health"
+              }
+            ]
+          },
+          {
+            "name": "UI Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "UI Health…will deploy its enterprise-grade AI platform across inpatient, outpatient, and emergency care.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/uihealth-deploys-abridge-across-care-settings"
+              }
+            ]
+          },
+          {
+            "name": "UNC Health",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "UNC Health…is expanding the use of Abridge AI across its network of thousands of clinicians…UNC Health selected Abridge as the enterprise-wide solution for ambient AI-powered documentation.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/unc-health-abridge"
+              }
+            ]
+          },
+          {
+            "name": "University Hospitals",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Trusted by leading healthcare systems…WVU Medicine University Hospitals UCHealth Inova Health OhioHealth UI Health Christus Health…",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/customers"
+              }
+            ]
+          },
+          {
+            "name": "University of Vermont Medical Center",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "“The superior quality of Abridge’s AI-generated note drafts made them the obvious choice by our Digital and Remote Health Committee for ambient documentation.”…UVM Health Network.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/customers"
+              }
+            ]
+          },
+          {
+            "name": "WVU Medicine",
+            "reasoning": "Evidence on we that this is customer served.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Rather than staring at a computer screen, clinicians can maintain eye contact and focus more fully on conversations with patients…clinical documentation drafted by AI provides another option for supporting clinicians…",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/case-study/wvu-medicine"
+              }
+            ]
+          },
+          {
+            "name": "Yale New Haven Health",
+            "reasoning": "Cross-referenced with website, confirmed evidence of customer relationship.",
+            "source": "marketplace",
+            "supporting_evidence": [
+              {
+                "snippet": "Abridge also announced a new enterprise agreement with the Yale New Haven Health System…that will give thousands of clinicians access to Abridge for clinical documentation.",
+                "source_type": "vendor_website",
+                "url": "https://www.abridge.com/press-release/series-c-150"
+              }
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "customer_count": 38,
+        "product_name": "Abridge"
+      }
+    }
+  ]
+}

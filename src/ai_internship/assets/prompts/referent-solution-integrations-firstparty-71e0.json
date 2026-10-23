@@ -1,0 +1,29 @@
+{
+  "name": "referent-solution-integrations-firstparty",
+  "slug": "referent-solution-integrations-firstparty-71e0",
+  "latest": "public-cec0959ab837237bac26",
+  "versions": [
+    {
+      "version": "public-cec0959ab837237bac26",
+      "prompt_data": {
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Teaching examples below use fictional Example-prefixed entities. They are not additional dataset records.\n\nLook at this product: {{subject}}\nLook at this product: {{object}}\n\nAn integration means one of the two being integrated with, connected to, embedded in, interoperable with, or combined with the other -- a real technical connection a customer would use. It is not a generic compatibility claim, an investment or commercial partnership with no technical connection, or two names simply appearing in the same list.\n\nBe careful whose page this is. Many pages belong to a third company listing everything it connects to. If both products appear in such a list, that means each connects to the page's owner -- not to each other. First-person words like \"we\" and \"our\" belong to that owner. Only answer yes if the page states a connection between these two specific products.\n\nThe connection must be about these exact products. A page often names the parent\ncompany, a sibling product, or the product family instead -- a sentence about a\ndifferent product from the same company does not establish a connection for this\none. But on the product's own website, the company name and the product family\nnormally do mean this product, unless the page is clearly distinguishing between\nseveral of its products.\n\nA health information network or exchange -- Carequality, CommonWell, eHealth\nExchange, a QHIN -- is infrastructure, not an integration partner. Joining one,\nconnecting to one, reaching through one, or giving customers access to one is\nparticipation in shared plumbing. Answer no, even where the page says \"connects\nto\" or \"integrates with\" that network by name.\n\nConsider what kind of page this is. A careers or jobs page, a role description, an\ninvestor page or a press boilerplate paragraph describes the company, not its\nproducts. Marketing copy repeated across many such pages is not evidence that two\nspecific products are connected, however confidently it is worded.\n\nOne more trap. Where the sentence describes the other product using this company's\ndata, content or code -- \"X integrates our code mappings\", \"built on their\nterminology\" -- and never names this product itself, that is the company's data\nbeing licensed, not these two products being connected. Answer no.\n\nTell prose apart from a catalogue, even on the product's own site. A sentence that\nnames specific partners is a specific claim, and it stays one even when the same\nsentence also boasts a large total -- \"integrates with 234+ EHRs and EMRs, from Acme\nand Cerner to custom builds\" genuinely names Acme and Cerner. A catalogue is a\ndifferent thing: a table or directory whose entries are rows and cells rather than\nsentences, listing dozens or hundreds of products. One row of such a table --\n\"| 26 | Tebra EHR | Ambulatory EHR | SMB clinics |\" -- is not a claim about that\nrow's product. Answer no to a bare catalogue entry, even though the product is named\nand the page belongs to the vendor.\n\nThe test: would a customer of this product read this page and conclude it works\nwith the other one? Not that the two companies have a relationship, not that it\ncould be made to work -- that it does.\n\nTwo worked examples.\n\nNO. Page: hub.example, owned by ExampleHub. Products asked about: ExampleBooking\nand ExamplePartner. The page says \"We've perfected connectivity with:\" above a list of 250\nplatforms, ExampleBooking and ExamplePartner both on it. Each connects to ExampleHub. The page says\nnothing about them connecting to each other.\n\nYES. Page: a vendor's own features page. Products: ExampleIntake and Acme. The page\nsays \"bi-directional EMR integrations with Acme, Cerner and athenahealth\". The\nproduct's own site states the connection plainly, and Acme is named.\n\nBased on the following page, are they integrated? Answer yes or no, and why.\n\nGive your answer in three fields, in this order: `reason`, your argument in a sentence or two; `integrated`, yes or no; `proof_sentence`, the sentence from the page that shows it, copied word for word, or empty if there is none.\n\nPAGE:\n{{page_content}}\n"
+            }
+          ]
+        },
+        "options": {
+          "model": "gpt-6.1-sol",
+          "params": {
+            "use_cache": true,
+            "temperature": 0
+          }
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

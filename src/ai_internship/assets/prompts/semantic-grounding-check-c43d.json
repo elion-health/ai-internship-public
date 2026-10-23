@@ -1,0 +1,26 @@
+{
+  "name": "semantic-grounding-check",
+  "slug": "semantic-grounding-check-c43d",
+  "latest": "public-ddb619cde370d27616cd",
+  "versions": [
+    {
+      "version": "public-ddb619cde370d27616cd",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.5",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "You are the last verification step in a data-extraction pipeline. You will be given a quote copied verbatim from a real web page and a relationship the pipeline extracted from it. Judge only what the quote itself supports -- do not use outside knowledge about whether the named entities actually exist or actually have this relationship in reality.\n\nJudge three things:\n1. is_named_organization -- true only if the subject is an actual named organization (a specific hospital, health system, clinic, or medical practice), not an individual person, a place, or a generic category/type of setting. This only matters when the subject is meant to be a HealthSystem -- if subject_type is Product, always answer true for this field.\n2. relationship_actually_happened -- true only if the quote states the relationship as a real, completed fact. False if it describes a wish, hope, plan, or intention, or explicitly says the relationship was cancelled, derailed, postponed, or never came to be.\n3. relationship_claim_supported -- true only if the quote explicitly states this specific type of relationship (active use/deployment for Adopts, an actual technical integration for Integrates) between the two named entities. False if they're merely co-mentioned -- e.g. an investor, a co-announcement partner, a quoted person, a bio affiliation, or an award/network membership.\n\n\nQuote: {{quote}}\nExtracted relationship: {{subject}} ({{subject_type}}) -{{relation}}-> {{object}} ({{object_type}})\n"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

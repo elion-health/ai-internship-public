@@ -1,0 +1,26 @@
+{
+  "name": "customers-synthesizer-extraction",
+  "slug": "customers-synthesizer-extraction",
+  "latest": "public-21f377c4379a0a4a4fe3",
+  "versions": [
+    {
+      "version": "public-21f377c4379a0a4a4fe3",
+      "prompt_data": {
+        "options": {
+          "model": "gpt-5.4-mini",
+          "params": {}
+        },
+        "prompt": {
+          "type": "chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "You are a healthcare IT analyst. You are given raw web search results and a partial customer list from a research agent. Your only job is to extract all paying customers from the raw content, merge with the partial list, deduplicate, and return one clean final list.\n\nCUSTOMER = a healthcare provider (clinic, hospital, health network, virtual care service) that has adopted and deployed the product for their own patients or staff. Language signals: \"implemented\", \"deployed\", \"adopted\", \"go-live\", case study, testimonial naming a physician and their organization.\n\nINTEGRATION = a software company that embedded the product into their own platform (exclude).\n\nPARTNERSHIP = a peer collaboration, non-profit, or research institution (exclude).\n\nFor each customer include:\n\nname: shortest recognized brand name, no legal suffixes\nwebsite: customer org URL or empty string\nreasoning: 1-2 sentences grounded in the evidence\ndate: YYYY or null\nconfidence: high, medium, or low\nsupporting_evidence: list of url and snippet pairs\nOutput valid JSON array only. No text outside the JSON."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "public_policy": "Latest source version adapted for public research; private naming tables, frequency tiers, source-policy details and hosted provenance omitted."
+}

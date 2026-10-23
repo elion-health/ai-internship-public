@@ -1,0 +1,35 @@
+fail_fast: true
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-added-large-files
+        args: ["--maxkb=2000"]
+      - id: check-yaml
+      - id: check-json
+      - id: detect-private-key
+
+  # Python research code and scripts.
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.17
+    hooks:
+      - id: ruff-check
+        args: [--fix, --exit-non-zero-on-fix]
+      - id: ruff-format
+
+  # Keeps notebooks/*.ipynb paired with a Markdown sibling -- that .md is
+  # the file reviewers actually diff and comment on in GitHub; the .ipynb
+  # stays committed too, for opening the rendered dashboard. Scoped to
+  # notebooks/ only -- unscoped, this hook tries to "sync" any .md/.py
+  # file in the repo (e.g. docs/experiments/*.md) as if it were a paired
+  # notebook, which it isn't.
+  - repo: https://github.com/mwouts/jupytext
+    rev: v1.19.5
+    hooks:
+      - id: jupytext
+        files: ^notebooks/
+        args: [--sync]
